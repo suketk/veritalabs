@@ -3,7 +3,7 @@ author: The Moai
 email: the.moai.labs@gmail.com
 description: The Moai is a self-development platform backed by behavioral science. You use it to develop programs that enable lasting habit change for your audience through accountability and community.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # your site's origin, e.g. https://forestry.io
+url: "https://themoai.org" # your site's origin, e.g. https://forestry.io
 
 # Build settings
 defaults:
@@ -15,4 +15,5 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-menus
+  - jekyll-sitemap
 
