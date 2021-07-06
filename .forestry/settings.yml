@@ -8,9 +8,6 @@ sections:
   path: FORESTRY-README.md
   label: Welcome - First Steps
   read_only: true
-- type: jekyll-posts
-  label: Posts
-  create: all
 - type: directory
   path: ''
   label: Pages
@@ -25,7 +22,7 @@ upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":year:/:month:/:day:/:filename:"
+file_template: ":filename:"
 build:
   preview_env:
   - JEKYLL_ENV=staging
