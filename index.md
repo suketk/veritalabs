@@ -75,7 +75,6 @@ page_sections:
   - template: content-feature
     block: feature-1
     alt: true
-    last: true
     media_alignment: Left
     headline: <strong>Pay what you want</strong>
     content: Students complete the program, newly transformed. They pay what they think it was worth and only if they see results. We only make money if they succeed.
@@ -123,7 +122,6 @@ page_sections:
       alt_text: Healthy habits
   - template: content-feature
     block: feature-1
-    last: true
     media_alignment: Right
     headline: <strong>Differentiate yourself with community.</strong>
     content: Content is a commodity now. Lack of quality content isn't the bottleneck to real habit change - the lack of action is. Build a tight-knit community focused on execution, and make that your unique selling point.

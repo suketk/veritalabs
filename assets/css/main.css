@@ -612,6 +612,10 @@ input.inverted::placeholder {
 	}
 }
 
+.block-feature-1,.block-feature-2 {
+	padding-top: 0rem;
+}
+
 .block-feature-1 .columns {
 	display: -ms-flexbox;
 	display: flex;
@@ -786,10 +790,6 @@ body {
 
 .trim {
 	padding-bottom: 0rem;
-}
-
-.not-last {
-	padding-top: 0rem;
 }
 
 .alt {
