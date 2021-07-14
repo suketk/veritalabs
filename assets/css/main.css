@@ -481,25 +481,21 @@ input.inverted::placeholder {
 }
 
 .block-cta-bar .cta form {
-	text-align: right;
 	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-align: stretch;
-	align-items: stretch;
+	flex-wrap: wrap;
 }
 
 .block-cta-bar .cta input {
 	-ms-flex: auto;
 	flex: auto;
-	width: 100px;
-	margin-right: .25rem;
-	border-radius: .3rem 0 0 .3rem;
+	width: 100%;
+	margin-bottom: 1rem;
 }
 
 .block-cta-bar .cta .button {
-	-ms-flex: 0 0 100px;
-	flex: 0 0 100px;
-	border-radius: 0 .3rem .3rem 0;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
 }
 
 @media screen and (min-width:700px) {
@@ -514,10 +510,24 @@ input.inverted::placeholder {
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%
 	}
-	.block-cta-bar .cta input {
-		-ms-flex: auto;
-		flex: auto;
-		width: 100px
+	.block-cta-bar .cta input,button {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+	}
+
+	.block-cta-bar .cta input[type=name] {
+		-ms-flex: 0 0 48%;
+		flex: 0 0 48%;
+	}
+
+	.block-cta-bar .cta div.empty {
+		-ms-flex: 0 0 4%;
+		flex: 0 0 4%;
+	}
+
+	.block-cta-bar .cta input[type=email] {
+		-ms-flex: 0 0 48%;
+		flex: 0 0 48%;
 	}
 }
 

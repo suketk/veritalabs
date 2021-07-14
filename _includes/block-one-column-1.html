@@ -3,6 +3,7 @@
     <div class="columns">
       <div class="column">
         <h2>{{ section.headline }}</h2>
+        {% if section.caption %}<h3>{{section.caption}}</h3>{% endif %}
         <p>{{ section.content }}</p>
       </div>
     </div>

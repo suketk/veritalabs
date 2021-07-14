@@ -7,8 +7,11 @@
           </div>
           <div class="cta">
             <form action="https://formspree.io/{{ section.email_recipient }}" method="POST">
-              <input type="email" placeholder="your@email.com" class="inverted" name="_replyto">
-              <button type="submit" class="button primary inverted">Join</button>
+              <input type="name" placeholder="Name" class="inverted" name="name" required>
+              <div class="empty"></div>
+              <input type="email" placeholder="Email address" class="inverted" name="email" required>
+              <input type="text" placeholder="Your inquiry here" class="inverted" name="description" required>
+              <button type="submit" class="button primary inverted"><strong>Contact Us</strong></button>
             </form>
           </div>
       </div>
