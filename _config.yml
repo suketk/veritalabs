@@ -5,6 +5,7 @@ description: The Moai is a self-development platform backed by behavioral scienc
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://themoai.org # your site's origin, e.g. https://forestry.io
 backend: https://agile-springs-38126.herokuapp.com
+google_analytics: G-F98G5S96F4
 
 # Build settings
 defaults:
