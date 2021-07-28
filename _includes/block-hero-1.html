@@ -1,5 +1,9 @@
 <section class="block block-hero-1">
   <div class="container">
-    <h1><span class="light">{{ section.heading }}</span></h1>
+    <h1><span class="light">{{ section.headline }}</span></h1>
+    <p>{{ section.content }}</p>
+    {% if section.cta and section.cta.enabled == true %}
+    <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+    {% endif %}
   </div>
 </section>

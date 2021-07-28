@@ -1,10 +1,9 @@
 ---
 layout: blocks
 title: Homepage
-date: 2017-11-22T23:00:00.000+00:00
+date: 2021-07-21
 page_sections:
-  - template: navigation-header-w-button
-    block: header-2
+  - block: header-2
     logo: '/uploads/logo.png'
     title: The Moai
     navigation:
@@ -17,8 +16,7 @@ page_sections:
     cta:
       url: '#signup'
       button_text: Contact
-  - template: hero-banner-w-image
-    block: hero-2
+  - block: hero-2
     slug: features
     headline: Don't just inspire. <strong>Enable action.</strong>
     content:
@@ -31,60 +29,52 @@ page_sections:
       image: '/uploads/healthy-lifestyle.png'
       alt_text: Group achievement
     background_image: '/uploads/hero-2-bg.png'
-  - template: 1-column-text
-    block: one-column-1
+  - block: one-column-1
     slug: intro
     headline: What's The Moai?
     content: The Moai is a self-development platform built for creators. It helps you run programs backed by behavioral science to enable lasting habit change for your audience through accountability and community. In exchange, you get to elevate your impact, understand your users better, and build a more aligned business model.
-  - template: 1-column-text
-    block: one-column-1
+  - block: one-column-1
     slug: how-it-works
     headline: How It Works
     caption: For Students
-    alt: true
-  - template: content-feature
-    block: feature-1
+    class: alt
+  - block: feature-1
     media_alignment: Right
-    alt: true
+    class: alt
     headline: Skin in the game
     content: Students register for the program by placing a deposit. If they complete the program, it is returned to them. If they don’t, the deposit is donated to charity. We don’t make money if they fail.
     media:
       image: '/uploads/deposit.png'
       alt_text: Deposit
-  - template: content-feature
-    block: feature-1
+  - block: feature-1
     media_alignment: Left
-    alt: true
+    class: alt
     headline: Intimate community
     content: Students are placed into small cohorts (4 people). This is their “Moai” or social support group. Though the program requires individual work, they're all in it together. They are each other’s source of motivation, accountability and shared learning.
     media:
       image: '/uploads/community.png'
       alt_text: Community
-  - template: content-feature
-    block: feature-1
+  - block: feature-1
     media_alignment: Right
-    alt: true
+    class: alt
     headline: Weekly challenges
     content: Every week, the Moai is given a challenge and associated self-reflection prompts. It’s ok if a student doesn’t succeed with their challenge, but they must submit their answers to the prompts. If they don’t, their deposit is donated to charity.
     media:
       image: '/uploads/challenge.png'
       alt_text: Challenge
-  - template: content-feature
-    block: feature-1
-    alt: true
+  - block: feature-1
+    class: alt
     media_alignment: Left
     headline: Pay what you want
     content: Students complete the program, newly transformed. They pay what they think it was worth and only if they see results. We only make money if they succeed.
     media:
       image: '/uploads/pay.png'
       alt_text: Pay
-  - template: 1-column-text
-    block: one-column-1
+  - block: one-column-1
     headline: How It Works
     caption: For Creators
     trim: true
-  - template: 3-column-text
-    block: three-column-1
+  - block: three-column-1
     col_1:
       headline: One-Time Setup
       content: We work with you to tailor the program to fit your needs. You only need to do this once.
@@ -94,13 +84,11 @@ page_sections:
     col_3:
       headline: Sit Back and Relax
       content: We run the program so you don’t have to. At the end of the course, you get paid based on what the student’s contributed.
-  - template: 1-column-text
-    block: one-column-1
+  - block: one-column-1
     slug: benefits
     headline: Benefits for Creators
-    alt: true
-  - template: content-feature
-    block: feature-1
+    class: alt
+  - block: feature-1
     media_alignment: Right
     headline: Set it and forget it.
     content:
@@ -108,9 +96,8 @@ page_sections:
     media:
       image: '/uploads/process.png'
       alt_text: Setup
-    alt: true
-  - template: content-feature
-    block: feature-1
+    class: alt
+  - block: feature-1
     media_alignment: Left
     headline: Monetize the right way.
     content:
@@ -118,9 +105,8 @@ page_sections:
     media:
       image: '/uploads/monetize.png'
       alt_text: Monetize
-    alt: true
-  - template: content-feature
-    block: feature-1
+    class: alt
+  - block: feature-1
     media_alignment: Right
     headline: Understand your audience.
     content:
@@ -128,31 +114,27 @@ page_sections:
     media:
       image: '/uploads/understand.png'
       alt_text: Understand
-    alt: true
-  - template: content-feature
-    block: feature-1
+    class: alt
+  - block: feature-1
     media_alignment: Left
     headline: Elevate your impact.
     content: 'Before: Creator of inspiring content. <br> After: Facilitator of real habit change.'
     media:
       image: '/uploads/healthy-lifestyle.png'
       alt_text: Healthy habits
-    alt: true
-  - template: content-feature
-    block: feature-1
+    class: alt
+  - block: feature-1
     media_alignment: Right
     headline: Differentiate yourself with community.
     content: Content is a commodity now. Lack of quality content isn't the bottleneck to real habit change - the lack of action is. Build a tight-knit community focused on execution, and make that your unique selling point.
     media:
       image: '/uploads/diversity.png'
       alt_text: Community
-    alt: true
-  - template: 1-column-text
-    block: one-column-1
+    class: alt
+  - block: one-column-1
     headline: Benefits for your Audience
     trim: true
-  - template: 3-column-text
-    block: three-column-1
+  - block: three-column-1
     col_1:
       headline: Skin in the game
       content: 'If they don’t complete the program, their deposit is donated to charity. If they complete it, they pay us what they think it was worth. Skin in the game for them and for us: we only make money if they succeed.'
@@ -162,14 +144,12 @@ page_sections:
     col_3:
       headline: Community
       content: The Moai builds off each other through mutual support and shared learnings. Doing the work is an individual journey, but it doesn’t have to feel like one. There’s nothing quite like growing together.
-  - template: 1-column-text
-    block: one-column-1
+  - block: one-column-1
     slug: principles
     headline: Principles
     trim: true
-    alt: true
-  - template: 3-column-text
-    block: three-column-1
+    class: alt
+  - block: three-column-1
     col_1:
       headline: Aligned Incentives
       content: We only make money if the students succeed. This eliminates the conflict of interest associated with other business models, e.g ads, endorsements, affiliate links.
@@ -179,15 +159,13 @@ page_sections:
     col_3:
       headline: Tighten the Feedback Loop
       content: Writing is thinking. The weekly questionnaire forces students to reflect on what worked and what didn’t. By precisely articulating their own learnings, they discover immediately actionable advice for the next iteration. This yields compounding results over time.
-    alt: true
-  - template: signup-bar
-    block: cta-bar
+    class: alt
+  - block: cta-bar
     slug: signup
     content: <strong>Contact Us</strong><br><br>
       Ready to join? Have questions? Want a quote?<br>
       Reach out - we'll be glad to help!
     email_recipient: mvodqvon
-  - template: simple-footer
-    block: footer-1
+  - block: footer-1
     content: Made with ❤︎ in NYC
 ---

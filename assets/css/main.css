@@ -1,7 +1,7 @@
 :root {
 	--vert: 3rem;
 	--hor: 6rem;
-	--theme: #046780;
+	--theme: #482846;
 }
 
 * {
@@ -35,15 +35,18 @@ h3 {
 	letter-spacing: 0;
 }
 
-h3,
-p {
+h3, p, ul, ol {
 	font-size: 1.25rem;
 	line-height: 1.35;
 }
 
-p {
+p, ul, ol {
 	font-weight: 400;
 	color: #666;
+}
+
+li {
+	text-align: left;
 }
 
 @media screen and (min-width:700px) {
@@ -78,8 +81,8 @@ p {
 	outline: none;
 	border: 0;
 	padding: .8rem 1.5rem;
-	border-radius: .3rem;
-	font-size: .8rem;
+	border-radius: .5rem;
+	font-size: 1rem;
 	font-weight: 500;
 	cursor: pointer;
 	position: relative;
@@ -292,6 +295,11 @@ input.inverted::placeholder {
 	}
 }
 
+.block-hero-1 p {
+	margin: 1rem 0 2rem;
+	color: #fff;
+}
+
 .block-hero-2 {
 	--text: #fff;
 	-ms-flex-direction: column;
@@ -442,6 +450,15 @@ input.inverted::placeholder {
 		-ms-flex: 0 0 calc(33.33% - 4rem);
 		flex: 0 0 calc(33.33% - 4rem)
 	}
+}
+
+.block-three-column-1 img {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.block-three-column-1.circle img {
+	border-radius: 100%;
 }
 
 .block-cta-bar {
@@ -804,4 +821,17 @@ body {
 
 .alt {
 	background-color: #f0f2f9;
+}
+
+.block-registration-bar {
+	padding-top: 0px;
+}
+
+.block-registration-bar form {
+	display: flex;
+	justify-content: center;
+}
+
+.block-registration-bar button {
+	max-width: 600px;
 }
