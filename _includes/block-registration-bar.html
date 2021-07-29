@@ -4,6 +4,8 @@
       <div class="columns">
           <div class="cta">
             <form action="{{ site.backend }}/register" method="POST">
+              <input type="name" placeholder="Name" class="inverted" name="name" required>
+              <input type="email" placeholder="Email address" class="inverted" name="email" required>
               <button type="submit" class="button primary"><strong>Register Now!</strong></button>
             </form>
           </div>

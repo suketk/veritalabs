@@ -829,9 +829,13 @@ body {
 
 .block-registration-bar form {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: -0.5rem 0;
 }
 
-.block-registration-bar button {
+.block-registration-bar form > * {
 	max-width: 600px;
+	width:  100%;
+	margin: 0.5rem 0;
 }
