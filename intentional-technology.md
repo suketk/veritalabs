@@ -11,12 +11,14 @@ page_sections:
       <p>
         Introducing our free 30 day group accountability program. <br>
         Cohort 3 runs from August 6 - September 6. <br>
-        <strong>Registration closes on August 3.</strong>
+        <strong>Registration is now closed.</strong>
+        <!-- <strong>Registration closes on August 3.</strong> -->
       </p>
     cta:
       enabled: true
       url: '#signup'
-      button_text: 'Join for Free'
+      # button_text: 'Join for Free'
+      button_text: 'Join the Waitlist'
   - block: one-column-1
     headline: Who this program is for
     trim: true
@@ -78,39 +80,44 @@ page_sections:
         alt_text: Healthy Lifestyle
       headline: 3. Finish!
       content: You are now a changed person! Pay us what you think it was worth after the program ends and only if you see results. We only make money if you succeed.
+  # - block: one-column-1
+  #   headline: Register
+  #   caption: After reading these important details
+  #   trim: true
+  #   class: alt
+  # - block: three-column-1
+  #   class: alt
+  #   col_1:
+  #     headline: Dates
+  #     content:
+  #       <ul>
+  #       <li>Registration closes on August 3.</li>
+  #       <li>The program runs for 30 days - from August 6 to September 6. </li>
+  #       </ul>
+  #   col_2:
+  #     headline: Check-Ins
+  #     content:
+  #       <ul>
+  #       <li>Check-ins are mandatory. They only take 20 minutes to complete.</li>
+  #       <li>There are 5 in total - due every Sunday (Aug 8, 15, 22, 29, Sep 5).</li>
+  #       <li>Your answers are shared with your Moai.</li>
+  #       </ul>
+  #   col_3:
+  #     headline: Cost
+  #     content:
+  #       <ul>
+  #       <li>It's free to participate, but a credit card is required to register.</li>
+  #       <li>You will be charged $100 to charity (not us) if you don't submit all the check-ins on time.</li>
+  #       <li>Upon completing the program, you can pay us what you want.</li>
+  #       </ul>
   - block: one-column-1
-    headline: Register
-    caption: After reading these important details
-    trim: true
+    headline: Join the Waitlist
+    content: Registration is closed. Join the waitlist to get notified of the next program.
     class: alt
-  - block: three-column-1
-    class: alt
-    col_1:
-      headline: Dates
-      content:
-        <ul>
-        <li>Registration closes on August 3.</li>
-        <li>The program runs for 30 days - from August 6 to September 6. </li>
-        </ul>
-    col_2:
-      headline: Check-Ins
-      content:
-        <ul>
-        <li>Check-ins are mandatory. They only take 20 minutes to complete.</li>
-        <li>There are 5 in total - due every Sunday (Aug 8, 15, 22, 29, Sep 5).</li>
-        <li>Your answers are shared with your Moai.</li>
-        </ul>
-    col_3:
-      headline: Cost
-      content:
-        <ul>
-        <li>It's free to participate, but a credit card is required to register.</li>
-        <li>You will be charged $100 to charity (not us) if you don't submit all the check-ins on time.</li>
-        <li>Upon completing the program, you can pay us what you want.</li>
-        </ul>
   - block: registration-bar
     slug: signup
     class: alt
+    url: https://formspree.io/f/xeqvrpej
   - block: footer-1
     content: 'Made with ❤︎ in NYC · team@themoai.org'
 ---
