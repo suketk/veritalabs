@@ -1,7 +1,7 @@
 {% if section.media_alignment and section.media_alignment == "Left" %}
-{% include block-feature-2.html %}
+{% include block-feature-right.html %}
 {% else %}
-<section id="{{ section.slug | slugify }}" class="block block-feature-1 {{section.class}}">
+<section id="{{ section.slug | slugify }}" class="block block-feature left {{section.class}}">
   <div class="container">
     <div class="columns">
       <div class="column text">

@@ -1,0 +1,25 @@
+<section id="{{ section.slug | slugify }}" class="block block-feature-list {{section.class}}">
+  <div class="container">
+    {% if section.title %} 
+    <div class="title">
+      <h2>{{ section.title.headline }}</h2>
+      {% if section.title.caption %}<h3>{{section.title.caption}}</h3>{% endif %}
+      <p>{{ section.title.content }}</p>
+    </div>
+    {% endif %}
+    {% for f in section.features %}
+      {% assign remainder = forloop.index0 | modulo:2 %}
+      <div class="block-feature {% if remainder == 0 %} left {% else %} right {% endif %}">
+        <div class="columns">
+          <div class="column text">
+            <h3><span class="light">{{ f.headline }}</span></h3>
+            <p>{{ f.content }}</p>
+          </div>
+          <div class="column media">
+            <img src="{{ f.media.image | relative_url }}" alt="{{ f.media.alt_text }}" loading="lazy">
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

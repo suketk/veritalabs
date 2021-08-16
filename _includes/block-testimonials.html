@@ -1,21 +1,22 @@
 <section class="block block-testimonials {{section.class}}">
   <div class="container">
+    {% if section.title %} 
+    <div class="title">
+      <h2>{{ section.title.headline }}</h2>
+      {% if section.title.caption %}<h3>{{section.title.caption}}</h3>{% endif %}
+      <p>{{ section.title.content }}</p>
+    </div>
+    {% endif %}
     <div class="columns">
+      {% for t in section.testimonials %}
       <div class="column">
-        <p class="quote">"{{ section.col_1.quote }}"</p>
-        <br>
-        <p class="person">- {{ section.col_1.person }}</p>
+        <div class="testimonial">
+          <span>{{t.role}}</span>
+          <p class="quote">"{{ t.quote }}"</p>
+          <p class="person">- {{ t.person }}</p>
+        </div>
       </div>
-      <div class="column">
-        <p class="quote">"{{ section.col_2.quote }}"</p>
-        <br>
-        <p class="person">- {{ section.col_2.person }}</p>
-      </div>
-      <div class="column">
-        <p class="quote">"{{ section.col_3.quote }}"</p>
-        <br>
-        <p class="person">- {{ section.col_3.person }}</p>
-      </div>            
+      {% endfor %}
     </div>
   </div>
 </section>

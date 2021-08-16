@@ -19,11 +19,10 @@ page_sections:
       url: '#signup'
       # button_text: 'Join for Free'
       button_text: 'Join the Waitlist'
-  - block: one-column-1
-    headline: Who this program is for
-    trim: true
   - block: three-column-1
     class: circle
+    title:
+      headline: Who this program is for
     col_1:
       image:
         image: '/uploads/student.jpeg'
@@ -42,13 +41,11 @@ page_sections:
         alt_text: Creative
       headline: Creatives
       content: Do you feel constantly over-stimulated and lack the blank space required for creativity?
-  - block: one-column-1
-    headline: Be more productive, happy and fulfilled
-    caption: Experience a better life in 5 weeks
-    trim: true
-    class: alt
   - block: three-column-1
     class: alt
+    title:
+      headline: Be more productive, happy and fulfilled
+      caption: Experience a better life in 5 weeks
     col_1:
       headline: Improved Productivity
       content: Free yourself from mindless distractions that impede on your goals. Get more done.
@@ -58,10 +55,9 @@ page_sections:
     col_3:
       headline: Greater Fulfillment
       content: Cultivate high-quality leisure to be more energized and fulfilled.
-  - block: one-column-1
-    headline: How it works
-    trim: true
   - block: three-column-1
+    title:
+      headline: How it works
     col_1:
       image:
         image: '/uploads/community.png'

@@ -1,5 +1,12 @@
 <section class="block block-three-column-1 {{section.class}}">
   <div class="container">
+    {% if section.title %} 
+    <div class="title">
+      <h2>{{ section.title.headline }}</h2>
+      {% if section.title.caption %}<h3>{{section.title.caption}}</h3>{% endif %}
+      <p>{{ section.title.content }}</p>
+    </div>
+    {% endif %}
     <div class="columns">
       <div class="column">
         {% if section.col_1.image %} <img src="{{ section.col_1.image.image | relative_url }}" alt="{{ section.col_1.image.image.alt_text }}" loading="lazy"> {% endif %}
