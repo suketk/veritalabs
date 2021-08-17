@@ -19,7 +19,8 @@ page_sections:
   - block: hero-1
     headline: Don't just inspire. <strong>Enable action.</strong>
     content:
-      As a creator, empower habit change for your audience through social support groups.
+      Create programs to empower habit change for your audience.<br>
+      Transform your expertise into a thriving self-improvement business.
     cta:
       enabled: true
       url: '#signup'
@@ -31,9 +32,9 @@ page_sections:
   - block: one-column-1
     slug: intro
     headline: What's The Moai?
-    content: The Moai is a self-development platform built for creators.
+    content: The Moai is a program development platform built for creators.
       <br><br>
-      It helps you run programs backed by behavioral science to enable lasting habit change for your audience through accountability and community. In exchange, you get to elevate your impact, understand your users better, and build a more aligned business model.
+      You can use it to create programs backed by behavioral science to enable lasting habit change for your audience through accountability and community. In exchange, you get to elevate your impact, understand your users better, and build a more aligned business model.
       <br><br>
       Join for free - we only make money when you do.
   - block: feature-list
@@ -47,7 +48,7 @@ page_sections:
           image: '/uploads/creator.jpeg'
           alt_text: Creator
       - headline: Who always struggled to monetize.
-        content: None of the existing methods appeal to him. Course creation is too time intensive. Endorsements damage his unbiased reputation. Ad revenue makes him too reliant on the Algorithm.
+        content: None of the existing methods appeal to him. Course creation is too time intensive. Endorsements make him seem opportunistic. Ads result in a poor experience for his users.
         media:
           image: '/uploads/creator-chess.jpeg'
           alt_text: Chess
@@ -164,7 +165,7 @@ page_sections:
   - block: three-column-1
     slug: principles
     title:
-      headline: Principles
+      headline: Our Principles
     col_1:
       headline: Aligned Incentives
       content: We only make money if you do, i.e when the students succeed. This eliminates the conflict of interest associated with other business models, e.g ads, endorsements, affiliate links.
