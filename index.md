@@ -13,6 +13,8 @@ page_sections:
         link_text: How It Works
       - link: '#benefits'
         link_text: Benefits
+      - link: '#pricing'
+        link_text: Pricing
     cta:
       url: '#signup'
       button_text: Schedule Demo
@@ -75,6 +77,7 @@ page_sections:
     title:
       headline: How It Works
       caption: For Creators
+    numbers: true
     features:
       - headline: Set it and forget it.
         content: Use our plug and play template or customize it to fit your needs. We'll guide you through the process with best practices. You only need to do this once.
@@ -96,6 +99,7 @@ page_sections:
     title:
       headline: How It Works
       caption: For Students      
+    numbers: true
     features:
       - headline: Skin in the game
         content: Students register for the program by placing a deposit. If they complete the program, it is returned to them. If they don’t, the deposit is donated to charity. We don’t make money if they fail.
@@ -176,6 +180,10 @@ page_sections:
       headline: Tighten the Feedback Loop
       content: Writing is thinking. The weekly questionnaire forces students to reflect on what worked and what didn’t. By precisely articulating their own learnings, they discover immediately actionable advice for the next iteration. This yields compounding results over time.
     class: alt
+  - block: one-column-1
+    slug: pricing
+    headline: Pricing
+    content: $0/month. Flat commission. Contact us to find out more.
   - block: cta-bar
     slug: signup
     content: <strong>Contact Us</strong><br><br>

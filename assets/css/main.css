@@ -747,3 +747,8 @@ body {
 .screenshot .column.media img {
 	max-width: 100%;
 }
+
+.number {
+	color: #482846;
+	font-size: 3rem;
+}
