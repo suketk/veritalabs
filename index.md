@@ -8,7 +8,7 @@ page_sections:
     title: The Moai
     navigation:
       - link: '#intro'
-        link_text: What's the Moai?
+        link_text: What's The Moai?
       - link: '#how-it-works'
         link_text: How It Works
       - link: '#benefits'
@@ -21,7 +21,7 @@ page_sections:
   - block: hero-1
     headline: Don't just inspire. <strong>Enable action.</strong>
     content:
-      Create programs to empower habit change for your audience.<br>
+      Empower habit change for your audience through social support groups.<br>
       Transform your expertise into a thriving self-improvement business.
     cta:
       enabled: true
@@ -34,9 +34,10 @@ page_sections:
   - block: one-column-1
     slug: intro
     headline: What's The Moai?
-    content: The Moai is a program development platform built for creators.
+    content: 
+      A <em>moai</em> is a social support group. The tradition originated in Okinawa, Japan - it means <em>"meeting for a common purpose"</em> in Japanese. According to research, it's why Okinawan people live longer and happier lives, making the region among the highest concentration of centenarians in the world.
       <br><br>
-      You can use it to create programs backed by behavioral science to enable lasting habit change for your audience through accountability and community. In exchange, you get to elevate your impact, understand your users better, and build a more aligned business model.
+      The Moai is a platform that enables content creators to build social support groups for their audience. You can use it to passively run programs that create lasting habit change through accountability and community. In exchange, you get to elevate your impact, understand your users better, and build a more aligned business model.
       <br><br>
       Join for free - we only make money when you do.
   - block: feature-list
