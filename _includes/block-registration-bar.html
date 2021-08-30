@@ -4,9 +4,10 @@
       <div class="columns">
           <div class="cta">
             <!-- <form action="{{ section.url }}" method="POST"> -->
-            <form action="{{ site.backend }}/register" method="POST">
+            <form action="{{ site.backend }}/register" method="POST" id="register">
               <input type="name" placeholder="Name" class="inverted" name="name" required>
               <input type="email" placeholder="Email address" class="inverted" name="email" required>
+              <input type="hidden" name="referrer">
               <!-- <button type="submit" class="button primary"><strong>Join the waitlist!</strong></button> -->
               <button type="submit" class="button primary"><strong>Join Now!</strong></button>
               <!-- <em> A credit card is required to enforce the stake. </em> -->
@@ -16,3 +17,6 @@
     </div>
   </div>
 </section>
+<script>
+  document.forms['register'].elements['referrer'].value = new URLSearchParams(location.search).get('referrer');
+</script>
