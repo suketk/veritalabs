@@ -45,8 +45,8 @@ page_sections:
       image:
         image: '/uploads/entrepreneur.jpeg'
         alt_text: Entrepreneur
-      headline: Entrepreneur
-      content: Do you feel constantly distracted and unable to do deep, focused work?
+      headline: Entrepreneurs
+      content: Do you feel constantly distracted by the small things? Are you unable to do deep, focused work?
   - block: three-column-1
     class: alt
     title:
