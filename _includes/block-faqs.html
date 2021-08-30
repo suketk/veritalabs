@@ -1,0 +1,19 @@
+<section id="{{ section.slug | slugify }}" class="block block-faqs {{section.class}}">
+  <div class="container">
+    {% if section.title %} 
+    <div class="title">
+      <h2>{{ section.title.headline }}</h2>
+      {% if section.title.caption %}<h3>{{section.title.caption}}</h3>{% endif %}
+      <p>{{ section.title.content }}</p>
+    </div>
+    {% endif %}
+    <div class="faqs">
+    {% for f in section.faqs %}
+      <details>
+        <summary>{{f.question}}</summary>
+        {{f.answer}}
+      </details>
+    {% endfor %}
+    </div>
+  </div>
+</section>

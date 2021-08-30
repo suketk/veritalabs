@@ -1,4 +1,4 @@
-<section class="block block-three-column-1 {{section.class}}">
+<section id="{{ section.slug | slugify }}" class="block block-three-column-1 {{section.class}}">
   <div class="container">
     {% if section.title %} 
     <div class="title">
@@ -10,17 +10,17 @@
     <div class="columns">
       <div class="column">
         {% if section.col_1.image %} <img src="{{ section.col_1.image.image | relative_url }}" alt="{{ section.col_1.image.image.alt_text }}" loading="lazy"> {% endif %}
-        <h3>{{ section.col_1.headline }}</h3>
+        <h3>{% if section.numbers %}<span class="number">1 </span>{% endif %}{{ section.col_1.headline }}</h3>
         <p>{{ section.col_1.content }}</p>
       </div>
       <div class="column">
         {% if section.col_2.image %} <img src="{{ section.col_2.image.image | relative_url }}" alt="{{ section.col_2.image.image.alt_text }}" loading="lazy"> {% endif %}
-        <h3>{{ section.col_2.headline }}</h3>
+        <h3>{% if section.numbers %}<span class="number">2 </span>{% endif %}{{ section.col_2.headline }}</h3>
         <p>{{ section.col_2.content }}</p>
       </div>
       <div class="column">
         {% if section.col_3.image %} <img src="{{ section.col_3.image.image | relative_url }}" alt="{{ section.col_3.image.image.alt_text }}" loading="lazy"> {% endif %}
-        <h3>{{ section.col_3.headline }}</h3>
+        <h3>{% if section.numbers %}<span class="number">3 </span>{% endif %}{{ section.col_3.headline }}</h3>
         <p>{{ section.col_3.content }}</p>
       </div>            
     </div>

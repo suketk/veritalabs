@@ -35,12 +35,12 @@ h3 {
 	letter-spacing: 0;
 }
 
-h3, p, ul, ol {
+h3, p, ul, ol, details {
 	font-size: 1.25rem;
 	line-height: 1.35;
 }
 
-p, ul, ol {
+p, ul, ol, details {
 	font-weight: 400;
 	color: #666;
 }
@@ -707,6 +707,21 @@ input.inverted::placeholder {
 		flex: 0 0 calc(50% - 4rem);
 		margin: 2rem
 	}
+}
+
+.block-faqs details {
+	/*margin-bottom: 1rem;*/
+	padding: 1rem;
+	margin-bottom: 0.1rem;
+}
+
+.block-faqs details[open] {
+	background-color: #f0f2f9;
+}
+
+.block-faqs details[open] summary {
+	margin-bottom: 1rem;
+	font-weight: bold;
 }
 
 body {
