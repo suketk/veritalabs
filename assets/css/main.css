@@ -759,6 +759,12 @@ body {
 	margin: 0.5rem 0;
 }
 
+.block-registration-bar form p {
+	text-align: center;
+	font-style: italic;
+	font-size: 1rem;
+}
+
 .screenshot .column.media img {
 	max-width: 100%;
 }
