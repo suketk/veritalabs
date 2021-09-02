@@ -151,6 +151,7 @@ page_sections:
       - question: What is a Moai?
         answer: A Moai is a social support group. The concept originated in Okinawa, Japan - it means "meeting for a common purpose" in Japanese. According to research, they are considered one of the leading factors of the longevity of lifespan of the Okinawan people, making the region among the highest concentration of centenarians in the world.
   - block: one-column-1
+    slug: waitlist
     headline: Not ready yet? Join the waitlist.
     caption: Be the first to know about future programs.
     class: alt
