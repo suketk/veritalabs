@@ -742,10 +742,12 @@ body {
 	background-color: #f0f2f9;
 }
 
+.block-waitlist-bar,
 .block-registration-bar {
 	padding-top: 0px;
 }
 
+.block-waitlist-bar form,
 .block-registration-bar form {
 	display: flex;
 	flex-direction: column;
@@ -753,6 +755,7 @@ body {
 	margin: -0.5rem 0;
 }
 
+.block-waitlist-bar form > *,
 .block-registration-bar form > * {
 	max-width: 600px;
 	width:  100%;

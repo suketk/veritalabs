@@ -133,7 +133,7 @@ page_sections:
   #   class: alt
   - block: registration-bar
     class: alt
-    # url: https://formspree.io/f/xeqvrpej
+    url: https://formspree.io/f/xeqvrpej
   - block: faqs
     title:
       headline: FAQs
@@ -150,7 +150,13 @@ page_sections:
         answer: Ask away to your Moai - that’s what they’re there for!
       - question: What is a Moai?
         answer: A Moai is a social support group. The concept originated in Okinawa, Japan - it means "meeting for a common purpose" in Japanese. According to research, they are considered one of the leading factors of the longevity of lifespan of the Okinawan people, making the region among the highest concentration of centenarians in the world.
-  - block: footer-1
+  - block: one-column-1
+    headline: Not ready yet? Join the waitlist.
+    caption: Be the first to know about future programs.
     class: alt
+  - block: waitlist-bar
+    url: https://formspree.io/f/xeqvrpej
+    class: alt
+  - block: footer-1
     content: 'Made with ❤︎ in NYC · team@themoai.org'
 ---
