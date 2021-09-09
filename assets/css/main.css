@@ -762,6 +762,11 @@ body {
 	margin: 0.5rem 0;
 }
 
+.block-registration-bar p {
+	text-align: center;
+	font-weight: bold;
+}
+
 .block-registration-bar form p {
 	text-align: center;
 	font-style: italic;

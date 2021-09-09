@@ -17,8 +17,8 @@ page_sections:
       <p>
         Introducing our free 30 day group accountability program. <br>
         Cohort 5 runs from Sep 10 - Oct 10. <br>
-        <strong>Registration closes on Sep 9.</strong>
-        <!-- <strong>Registration is now closed.</strong> -->
+        <!-- <strong>Registration closes on Sep 9.</strong> -->
+        <strong>Registration is now closed.</strong>
       </p>
     cta:
       enabled: true
