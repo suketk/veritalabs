@@ -141,7 +141,7 @@ page_sections:
       - question: What is the time commitment?
         answer: The weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
       - question: Why is a credit card required to register?
-        answer: The program is free to join, but we need your credit card to donate to charity on your behalf if you don't complete the program.
+        answer: The program is free to join, but we need your credit card to donate to charity on your behalf ONLY if you don't complete the program.
       - question: What if I check in consistently, but fail to reach my goals? Will I be charged?
         answer: Nope. As long as you complete all the check-ins on time, you won’t be charged. We believe in self-compassion, understanding and self-love over anything else, including hitting external goals. Sustainable growth and success not only starts with those things, but it requires them.
       - question: How is this different from a course?
