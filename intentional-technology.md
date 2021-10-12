@@ -16,9 +16,9 @@ page_sections:
       <hr style="width:50%; margin:auto;">
       <p>
         Introducing our free 30 day group accountability program. <br>
-        Cohort 5 runs from Sep 10 - Oct 10. <br>
-        <!-- <strong>Registration closes on Sep 9.</strong> -->
-        <strong>Registration is now closed.</strong>
+        Cohort 7 runs from Oct 15 - Nov 14. <br>
+        <strong>Registration closes on Thu, Oct 14.</strong>
+        <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
       enabled: true
@@ -91,7 +91,7 @@ page_sections:
     col_1:
       headline: Dates
       content:
-        Runs for 30 days. September 10 - October 10.
+        Runs for 30 days. October 15 - November 14.
     col_2:
       headline: Time Commitment
       content:
@@ -99,7 +99,7 @@ page_sections:
     col_3:
       headline: Stake
       content:
-        You will be charged $100 to charity - only if you don't complete the program.
+        You will be charged $100 to charity (not us) - only if you don't complete the program.
   # - block: three-column-1
   #   class: alt
   #   title:

@@ -4,7 +4,7 @@ email: the.moai.labs@gmail.com
 description: The Moai is a self-development platform backed by behavioral science. You use it to develop programs that enable lasting habit change for your audience through accountability and community.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://themoai.org # your site's origin, e.g. https://forestry.io
-backend: https://agile-springs-38126.herokuapp.com
+backend: https://secure-sea-24438.herokuapp.com
 google_analytics: G-F98G5S96F4
 
 # Build settings
