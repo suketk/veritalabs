@@ -776,6 +776,11 @@ body {
 	color:  #666;
 }
 
+.block-registration-bar p {
+	text-align: center;
+	font-weight: bold; 
+}
+
 .screenshot .column.media img {
 	max-width: 100%;
 }

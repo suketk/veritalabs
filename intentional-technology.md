@@ -17,14 +17,15 @@ page_sections:
       <p>
         Introducing our free 30 day group accountability program. <br>
         Cohort 7 runs from Oct 15 - Nov 14. <br>
-        <strong>Registration closes on Thu, Oct 14.</strong>
-        <!-- <strong>Registration is now closed.</strong> -->
+        <!-- <strong>Registration closes on Thu, Oct 14.</strong> -->
+        <strong>Registration is now closed.</strong>
       </p>
     cta:
       enabled: true
-      url: '#signup'
-      button_text: 'Join for Free'
-      # button_text: 'Join the Waitlist'
+      # url: '#signup'
+      # button_text: 'Join for Free'
+      url: '#waitlist'
+      button_text: 'Join the Waitlist'
   - block: three-column-1
     class: circle
     title:
@@ -100,37 +101,6 @@ page_sections:
       headline: Stake
       content:
         You will be charged $100 to charity (not us) - only if you don't complete the program.
-  # - block: three-column-1
-  #   class: alt
-  #   title:
-  #     headline: Specifics
-  #   col_1:
-  #     headline: Dates
-  #     content:
-  #       <ul>
-  #       <li>Runs for 30 days. September 10 to October 10. </li>
-  #       <li>Registration closes on August 3.</li>
-  #       </ul>
-  #   col_2:
-  #     headline: Check-Ins
-  #     content:
-  #       <ul>
-  #       <li>Check-ins are mandatory. They only take 20 minutes to complete.</li>
-  #       <li>There are 5 in total - due every Sunday (Aug 8, 15, 22, 29, Sep 5).</li>
-  #       <li>Your answers are shared with your Moai.</li>
-  #       </ul>
-  #   col_3:
-  #     headline: Cost
-  #     content:
-  #       <ul>
-  #       <li>It's free to participate, but a credit card is required to register.</li>
-  #       <li>You will be charged $100 to charity (not us) if you don't submit all the check-ins on time.</li>
-  #       <li>Upon completing the program, you can pay us what you want.</li>
-  #       </ul>
-  # - block: one-column-1
-  #   headline: Join the Waitlist
-  #   content: Registration is closed. Join the waitlist to get notified of the next program.
-  #   class: alt
   - block: registration-bar
     class: alt
     url: https://formspree.io/f/xeqvrpej
