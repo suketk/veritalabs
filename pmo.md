@@ -1,67 +1,67 @@
 ---
 layout: blocks
-title: Intentional Technology
+title: PMO
 date: 2021-07-21
 page_sections:
   - block: header-2
     logo: '/uploads/logo.png'
-    title: Intentional Technology Moai
+    title: PMO Moai
     cta:
       url: '#signup'
       button_text: Register
   - block: hero-1
-    headline: <strong>Reclaim your life from addictive technology.</strong>
+    headline: <strong>Reclaim your life from porn addiction.</strong>
     content:
-      Make technology work for you. Not the other way around.
+      Make your instincts work for you. Not the other way around.
       <hr style="width:50%; margin:auto;">
       <p>
-        Introducing our free 30 day group accountability program. <br>
-        Cohort 7 runs from Oct 15 - Nov 14. <br>
-        <!-- <strong>Registration closes on Thu, Oct 14.</strong> -->
-        <strong>Registration is now closed.</strong>
+        Introducing our free month-long group accountability program. <br>
+        Cohort 8 runs from Oct 29 - Nov 30. <br>
+        <strong>Registration closes on Thu, Oct 28.</strong>
+        <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
       enabled: true
-      # url: '#signup'
-      # button_text: 'Join for Free'
-      url: '#waitlist'
-      button_text: 'Join the Waitlist'
+      url: '#signup'
+      button_text: 'Join for Free'
+      # url: '#waitlist'
+      # button_text: 'Join the Waitlist'
   - block: three-column-1
     class: circle
     title:
       headline: Who this program is for
     col_1:
       image:
-        image: '/uploads/student.jpeg'
-        alt_text: Student
-      headline: Students
-      content: Do you struggle with procrastination and waste too much time on the Internet?
+        image: '/uploads/rookie.jpeg'
+        alt_text: First-Timers
+      headline: First-Timers
+      content: Do you have an unhealthy relationship with porn and want to do something about it?
     col_2:
       image:
-        image: '/uploads/professional.jpeg'
-        alt_text: Professional
-      headline: Professionals
-      content: Do you spend your precious free time on screens instead of working towards your personal goals?
+        image: '/uploads/relapser.jpeg'
+        alt_text: Relapsers
+      headline: Relapsers
+      content: Are you always unable to follow through and are looking for more accountability this time around?
     col_3:
       image:
-        image: '/uploads/entrepreneur.jpeg'
-        alt_text: Entrepreneur
-      headline: Entrepreneurs
-      content: Do you feel constantly distracted by the small things? Are you unable to do deep, focused work?
+        image: '/uploads/vet.jpeg'
+        alt_text: Seasoned Vets
+      headline: Seasoned Vets
+      content: Have you had long streaks, but want the motivation and support of a like-minded community?
   - block: three-column-1
     class: alt
     title:
-      headline: Be more productive, happy and fulfilled
+      headline: Be more confident, focused and energized
       caption: Experience a better life in 5 weeks
     col_1:
-      headline: Improved Productivity
-      content: Free yourself from mindless distractions that impede on your goals. Get more done.
+      headline: Boosted Confidence
+      content: Believe in yourself and be free from other's expectations.
     col_2:
-      headline: Better Mental Health
-      content: Addictive technology is the 21st century cigarette. Kick the habit and be happier.
+      headline: Sharper Focus
+      content: Rise above the "brain fog" and see things more clearly.
     col_3:
-      headline: Greater Fulfillment
-      content: Cultivate high-quality leisure to be more energized and fulfilled.
+      headline: Higher Energy Levels
+      content: Expend your energy towards the things that matter.
   - block: three-column-1
     numbers: true
     title:
@@ -92,7 +92,7 @@ page_sections:
     col_1:
       headline: Dates
       content:
-        Runs for 30 days. October 15 - November 14.
+        Runs for a month. October 29 - November 30.
     col_2:
       headline: Time Commitment
       content:
@@ -103,8 +103,7 @@ page_sections:
         You will be charged $100 to charity (not us) - only if you don't complete the program.
   - block: registration-bar
     class: alt
-    closed: true
-    program_id: 377ab588-2afc-441c-b5d0-c6f08924ebe8
+    # closed: true
   - block: faqs
     title:
       headline: FAQs

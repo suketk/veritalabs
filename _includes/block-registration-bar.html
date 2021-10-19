@@ -3,8 +3,10 @@
     <div class="container">
       <div class="columns">
           <div class="cta">
-            <p> Registration is now closed. Join the waitlist below. </p>
-<!--             <form action="{{ site.backend }}/register" method="POST" id="register">
+            {% if section.closed %}
+              <p> Registration is now closed. Join the <a href="#waitlist">waitlist</a> below. </p>
+            {% else %}
+              <form action="{{ site.backend }}/register" method="POST" id="register">
               <input type="name" placeholder="Name" class="inverted" name="name" required>
               <input type="email" placeholder="Email address" class="inverted" name="email" required>
               <div class="checkbox">
@@ -14,13 +16,14 @@
                   <em> It will NOT be charged right now - see the FAQs for more info. </em>
                 </label>
               </div>
-              <input type="hidden" name="referrer"> -->
+              <input type="hidden" name="referrer">
               <!-- PROD -- ENABLE ONE OF THESE -->
-              <!-- <input type="hidden" name="program_id" value="377ab588-2afc-441c-b5d0-c6f08924ebe8"> -->
+              <input type="hidden" name="program_id" value="{{section.program_id}}">
               <!-- TEST -->
               <!-- <input type="hidden" name="program_id" value="ea719edf-90da-4cf9-be12-3ba4f9611573">  -->
-<!--               <button type="submit" class="button primary"><strong>Join Now!</strong></button>
-            </form> -->
+              <button type="submit" class="button primary"><strong>Join Now!</strong></button>
+              </form>
+            {% endif %}
           </div>
       </div>
     </div>
