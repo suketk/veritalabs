@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Homepage
-date: 2021-07-21
+date: 2021-10-20
 page_sections:
   - block: header-2
     logo: '/uploads/logo.png'

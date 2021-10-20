@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Intentional Technology
-date: 2021-07-21
+date: 2021-10-20
 page_sections:
   - block: header-2
     logo: '/uploads/logo.png'
@@ -105,6 +105,7 @@ page_sections:
     class: alt
     closed: true
     program_id: 377ab588-2afc-441c-b5d0-c6f08924ebe8
+    success_url: '/intentional-technology-success'
   - block: faqs
     title:
       headline: FAQs

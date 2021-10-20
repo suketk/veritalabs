@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: PMO
-date: 2021-07-21
+date: 2021-10-20
 page_sections:
   - block: header-2
     logo: '/uploads/logo.png'
@@ -71,7 +71,7 @@ page_sections:
         image: '/uploads/community.png'
         alt_text: Community
       headline: Meet your Cohort
-      content: After registration, you're placed into a <em>“Moai”</em> - your intimate cohort of 4 people. You are each other’s source of motivation, accountability and shared learning. There's nothing quite like growing together!
+      content: After registration, you are anonymously placed into a <em>“Moai”</em> - your intimate cohort of 4 people. You are each other’s source of motivation, accountability and shared learning. There's nothing quite like growing together!
     col_2:
       image:
         image: '/uploads/challenge.png'
@@ -96,24 +96,28 @@ page_sections:
     col_2:
       headline: Time Commitment
       content:
-        15 minutes per weekly check-in. Due every Sunday (mandatory).
+        15 minutes per weekly check-in. Do it whenever, but it's due every Sunday.
     col_3:
       headline: Stake
       content:
-        You will be charged $100 to charity (not us) - only if you don't complete the program.
+        You will be charged $100 to charity (not us) - <strong>only</strong> if you don't submit all the check-ins.
   - block: registration-bar
     class: alt
     # closed: true
+    program_id: 3dfd5535-4739-4d11-950b-17e2aed307ce
+    success_url: '/pmo-success'
   - block: faqs
     title:
       headline: FAQs
     faqs:
       - question: What is the time commitment?
-        answer: The weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
+        answer: The weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! There are no video calls or live sessions. During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
       - question: Why is a credit card required to register?
-        answer: The program is free to join, but we need your credit card to donate to charity on your behalf ONLY if you don't complete the program.
+        answer: The program is free to join, but we need your credit card to donate to charity on your behalf ONLY if you don't complete the program. This increases your chance of success by 6x and ensures that everyone in your group is serious.
       - question: What if I check in consistently, but fail to reach my goals? Will I be charged?
         answer: Nope. As long as you complete all the check-ins on time, you won’t be charged. We believe in self-compassion, understanding and self-love over anything else, including hitting external goals. Sustainable growth and success not only starts with those things, but it requires them.
+      - question: Can I be anonymous?
+        answer: Absolutely! There won't be any video or voice calls. You can also set an anonymous nickname when you join your Moai.
       - question: How is this different from a course?
         answer: The program is focused on application, not theory. There will be very limited content and just enough structure for participants to grow at their own pace. It is the best of both worlds - the community of a class paired with the independence of self-learning.
       - question: What if I have questions or sticking points along the way?
