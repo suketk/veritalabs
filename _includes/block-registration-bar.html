@@ -7,22 +7,20 @@
               <p> Registration is now closed. Join the <a href="#waitlist">waitlist</a> below. </p>
             {% else %}
               <form action="{{ site.backend }}/register" method="POST" id="register">
-              <input type="name" placeholder="Name" class="inverted" name="name" required>
-              <input type="email" placeholder="Email address" class="inverted" name="email" required>
+              <input type="name" placeholder="Name" name="name" required>
+              <input type="email" placeholder="Email address" name="email" required>
               <div class="checkbox">
                 <input type="checkbox" name="ack" id="ack" required>
                 <label for="ack">
                   <strong> I understand that my credit card is required ONLY to enforce the stake. </strong> <br>
-                  <em> It will NOT be charged right now - see the FAQs for more info. </em>
+                  <em> It will NOT be charged right now - see the <a href="#faqs">FAQs</a> for more details. </em> <br> 
+                  <em> If you want to join a stake-less program, sign up for the <a href="#waitlist">waitlist</a>. </em>
                 </label>
               </div>
               <input type="hidden" name="referrer">
-              <input type="hidden" name="success_url"= value="{{site.url}}{{section.success_url}}">
+              <input type="hidden" name="success_url"= value="{{ site.url }}{{ section.success_url }}">
               <input type="hidden" name="cancel_url">
-              <!-- PROD -- ENABLE ONE OF THESE -->
-              <input type="hidden" name="program_id" value="{{section.program_id}}">
-              <!-- TEST -->
-              <!-- <input type="hidden" name="program_id" value="ea719edf-90da-4cf9-be12-3ba4f9611573">  -->
+              <input type="hidden" name="program_id" value="{{ section.program_id }}">
               <button type="submit" class="button primary"><strong>Join Now!</strong></button>
               </form>
             {% endif %}

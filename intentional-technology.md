@@ -85,6 +85,37 @@ page_sections:
       headline: Finish!
       content: You are now a changed person! Pay us what you think it was worth after the program ends and only if you see results. We only make money if you succeed.
   - block: three-column-1
+    slug: principles
+    title:
+      headline: Our Principles
+    col_1:
+      headline: Aligned Incentives
+      content: We only make money if you succeed. There is no conflict of interest, unlike other business models, e.g ads, endorsements, affiliate links. They are rewarded by consumption, not action.
+    col_2:
+      headline: Bias towards Action
+      content: Content is deliberately sparse in the program. The emphasis is on execution, not education. Quality content is no longer the bottleneck - the lack of action is.
+    col_3:
+      headline: Tighten the Feedback Loop
+      content: Writing is thinking. The check-ins force you to reflect on what worked and what didn’t. By articulating your learnings, you discover actionable advice for the next week. This yields compounding results over time.
+    class: alt
+  - block: faqs
+    slug: faqs
+    title:
+      headline: FAQs
+    faqs:
+      - question: What is the time commitment?
+        answer: The weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
+      - question: Why is a credit card required to register?
+        answer: The program is free to join, but we need your credit card to donate to charity on your behalf ONLY if you don't complete the program.
+      - question: What if I check in consistently, but fail to reach my goals? Will I be charged?
+        answer: Nope. As long as you complete all the check-ins on time, you won’t be charged. We believe in self-compassion, understanding and self-love over anything else, including hitting external goals. Sustainable growth and success not only starts with those things, but it requires them.
+      - question: How is this different from a course?
+        answer: The program is focused on application, not theory. There will be very limited content and just enough structure for participants to grow at their own pace. It is the best of both worlds - the community of a class paired with the independence of self-learning.
+      - question: What if I have questions or sticking points along the way?
+        answer: Ask away to your Moai - that’s what they’re there for!
+      - question: What is a Moai?
+        answer: A Moai is a social support group. The concept originated in Okinawa, Japan - it means "meeting for a common purpose" in Japanese. According to research, they are considered one of the leading factors of the longevity of lifespan of the Okinawan people, making the region among the highest concentration of centenarians in the world.
+  - block: three-column-1
     slug: signup
     class: alt
     title:
@@ -106,30 +137,16 @@ page_sections:
     closed: true
     program_id: 377ab588-2afc-441c-b5d0-c6f08924ebe8
     success_url: '/intentional-technology-success'
-  - block: faqs
-    title:
-      headline: FAQs
-    faqs:
-      - question: What is the time commitment?
-        answer: The weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
-      - question: Why is a credit card required to register?
-        answer: The program is free to join, but we need your credit card to donate to charity on your behalf ONLY if you don't complete the program.
-      - question: What if I check in consistently, but fail to reach my goals? Will I be charged?
-        answer: Nope. As long as you complete all the check-ins on time, you won’t be charged. We believe in self-compassion, understanding and self-love over anything else, including hitting external goals. Sustainable growth and success not only starts with those things, but it requires them.
-      - question: How is this different from a course?
-        answer: The program is focused on application, not theory. There will be very limited content and just enough structure for participants to grow at their own pace. It is the best of both worlds - the community of a class paired with the independence of self-learning.
-      - question: What if I have questions or sticking points along the way?
-        answer: Ask away to your Moai - that’s what they’re there for!
-      - question: What is a Moai?
-        answer: A Moai is a social support group. The concept originated in Okinawa, Japan - it means "meeting for a common purpose" in Japanese. According to research, they are considered one of the leading factors of the longevity of lifespan of the Okinawan people, making the region among the highest concentration of centenarians in the world.
+  - block: one-column-1
+    headline: Questions?
+    content: Email us at team@themoai.org. We're happy to help!
   - block: one-column-1
     slug: waitlist
     headline: Not ready yet? Join the waitlist.
     caption: Be the first to know about future programs.
     class: alt
   - block: waitlist-bar
-    url: https://formspree.io/f/xeqvrpej
     class: alt
   - block: footer-1
-    content: 'Made with ❤︎ in NYC · team@themoai.org'
+    content: 'Made with ❤︎ in NYC'
 ---

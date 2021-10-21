@@ -17,7 +17,7 @@ page_sections:
       <p>
         Introducing our free month-long group accountability program. <br>
         Cohort 8 runs from Oct 29 - Nov 30. <br>
-        <strong>Registration closes on Thu, Oct 28.</strong>
+        <strong>Registration closes on Thu, Oct 28. 4 spots left.</strong>
         <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
@@ -85,33 +85,26 @@ page_sections:
       headline: Finish!
       content: You are now a changed person! Pay us what you think it was worth after the program ends and only if you see results. We only make money if you succeed.
   - block: three-column-1
-    slug: signup
-    class: alt
+    slug: principles
     title:
-      headline: Register
+      headline: Our Principles
     col_1:
-      headline: Dates
-      content:
-        Runs for a month. October 29 - November 30.
+      headline: Aligned Incentives
+      content: We only make money if you succeed. There is no conflict of interest, unlike other business models, e.g ads, endorsements, affiliate links. They are rewarded by consumption, not action.
     col_2:
-      headline: Time Commitment
-      content:
-        15 minutes per weekly check-in. Do it whenever, but it's due every Sunday.
+      headline: Bias towards Action
+      content: Content is deliberately sparse in the program. The emphasis is on execution, not education. Quality content is no longer the bottleneck - the lack of action is.
     col_3:
-      headline: Stake
-      content:
-        You will be charged $100 to charity (not us) - <strong>only</strong> if you don't submit all the check-ins.
-  - block: registration-bar
+      headline: Tighten the Feedback Loop
+      content: Writing is thinking. The check-ins force you to reflect on what worked and what didn’t. By articulating your learnings, you discover actionable advice for the next week. This yields compounding results over time.
     class: alt
-    # closed: true
-    program_id: 3dfd5535-4739-4d11-950b-17e2aed307ce
-    success_url: '/pmo-success'
   - block: faqs
+    slug: faqs
     title:
       headline: FAQs
     faqs:
       - question: What is the time commitment?
-        answer: The weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! There are no video calls or live sessions. During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
+        answer: The written weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! There are no video calls or live sessions. During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
       - question: Why is a credit card required to register?
         answer: The program is free to join, but we need your credit card to donate to charity on your behalf ONLY if you don't complete the program. This increases your chance of success by 6x and ensures that everyone in your group is serious.
       - question: What if I check in consistently, but fail to reach my goals? Will I be charged?
@@ -124,14 +117,38 @@ page_sections:
         answer: Ask away to your Moai - that’s what they’re there for!
       - question: What is a Moai?
         answer: A Moai is a social support group. The concept originated in Okinawa, Japan - it means "meeting for a common purpose" in Japanese. According to research, they are considered one of the leading factors of the longevity of lifespan of the Okinawan people, making the region among the highest concentration of centenarians in the world.
+  - block: three-column-1
+    slug: signup
+    class: alt
+    title:
+      headline: Register
+    col_1:
+      headline: Dates
+      content:
+        Runs for a month. October 29 - November 30.
+    col_2:
+      headline: Time Commitment
+      content:
+        15 minutes per (written) weekly check-in. Due every Sunday.
+    col_3:
+      headline: Stake
+      content:
+        You will be charged $100 to charity (not us) - <strong>only</strong> if you don't submit all the check-ins.
+  - block: registration-bar
+    class: alt
+    # closed: true
+    program_id: 3dfd5535-4739-4d11-950b-17e2aed307ce
+    success_url: '/pmo-success'
+  - block: one-column-1
+    headline: Questions?
+    content: Email us at team@themoai.org. We're happy to help!
   - block: one-column-1
     slug: waitlist
     headline: Not ready yet? Join the waitlist.
     caption: Be the first to know about future programs.
     class: alt
   - block: waitlist-bar
-    url: https://formspree.io/f/xeqvrpej
     class: alt
   - block: footer-1
-    content: 'Made with ❤︎ in NYC · team@themoai.org'
+    content: 'Made with ❤︎ in NYC'
 ---

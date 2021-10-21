@@ -3,9 +3,10 @@
     <div class="container">
       <div class="columns">
           <div class="cta">
-            <form action="{{ section.url }}" method="POST">
-              <input type="name" placeholder="Name" class="inverted" name="name" required>
-              <input type="email" placeholder="Email address" class="inverted" name="email" required>
+            <form action="{{ site.backend }}/waitlist" method="POST">
+              <input type="name" placeholder="Name" name="name" required>
+              <input type="email" placeholder="Email address" name="email" required>
+              <input type="hidden" name="program" value="{{ page.title }}">
               <button type="submit" class="button primary"><strong>Join the waitlist!</strong></button>
             </form>
           </div>

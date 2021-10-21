@@ -138,6 +138,17 @@ input.inverted::placeholder {
 	color: #ddd;
 }
 
+.alt input {
+	border-bottom: 1px solid #fff;
+	color: #000;
+	background: #fff;
+	border-radius: .3rem;
+}
+
+.alt input::placeholder {
+	color: #ddd;
+}
+
 .block-header-1 {
 	display: flex;
 	justify-content: space-between;
