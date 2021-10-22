@@ -26,8 +26,21 @@ page_sections:
       # button_text: 'Join for Free'
       url: '#waitlist'
       button_text: 'Join the Waitlist'
+  - block: testimonials
+    title:
+      headline: Testimonials
+    testimonials:
+      - quote: "The Moai program plants the seed of habit reformation into your mind -- and even if you don't see the results and tall, green stock you're chasing, it's still taking root and subtly encouraging you to keep trying -- and reminding you that it is possible to create change for oneself."
+        role: Student
+        person: P
+      - quote: "I feel much better about myself now that I have adopted healthier habits and become more productive. I still have aways to go, but I am at a much better spot than one month ago."
+        role: Student
+        person: M
+      - quote: "My brain feels less foggy and more relaxed. Learning to be kind to myself in the face of failure has been a HUGE step in allowing myself to grow and develop better habits."
+        role: Student
+        person: M
   - block: three-column-1
-    class: circle
+    class: circle alt
     title:
       headline: Who this program is for
     col_1:
@@ -49,7 +62,6 @@ page_sections:
       headline: Entrepreneurs
       content: Do you feel constantly distracted by the small things? Are you unable to do deep, focused work?
   - block: three-column-1
-    class: alt
     title:
       headline: Be more productive, happy and fulfilled
       caption: Experience a better life in 5 weeks
@@ -63,6 +75,7 @@ page_sections:
       headline: Greater Fulfillment
       content: Cultivate high-quality leisure to be more energized and fulfilled.
   - block: three-column-1
+    class: alt
     numbers: true
     title:
       headline: How it works
@@ -97,24 +110,6 @@ page_sections:
     col_3:
       headline: Tighten the Feedback Loop
       content: Writing is thinking. The check-ins force you to reflect on what worked and what didn’t. By articulating your learnings, you discover actionable advice for the next week. This yields compounding results over time.
-    class: alt
-  - block: faqs
-    slug: faqs
-    title:
-      headline: FAQs
-    faqs:
-      - question: What is the time commitment?
-        answer: The weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
-      - question: Why is a credit card required to register?
-        answer: The program is free to join, but we need your credit card to donate to charity on your behalf ONLY if you don't complete the program.
-      - question: What if I check in consistently, but fail to reach my goals? Will I be charged?
-        answer: Nope. As long as you complete all the check-ins on time, you won’t be charged. We believe in self-compassion, understanding and self-love over anything else, including hitting external goals. Sustainable growth and success not only starts with those things, but it requires them.
-      - question: How is this different from a course?
-        answer: The program is focused on application, not theory. There will be very limited content and just enough structure for participants to grow at their own pace. It is the best of both worlds - the community of a class paired with the independence of self-learning.
-      - question: What if I have questions or sticking points along the way?
-        answer: Ask away to your Moai - that’s what they’re there for!
-      - question: What is a Moai?
-        answer: A Moai is a social support group. The concept originated in Okinawa, Japan - it means "meeting for a common purpose" in Japanese. According to research, they are considered one of the leading factors of the longevity of lifespan of the Okinawan people, making the region among the highest concentration of centenarians in the world.
   - block: three-column-1
     slug: signup
     class: alt
@@ -137,9 +132,27 @@ page_sections:
     closed: true
     program_id: 377ab588-2afc-441c-b5d0-c6f08924ebe8
     success_url: '/intentional-technology-success'
-  - block: one-column-1
-    headline: Questions?
-    content: Email us at team@themoai.org. We're happy to help!
+  - block: faqs
+    slug: faqs
+    title:
+      headline: FAQs
+    faqs:
+      - question: What is the time commitment?
+        answer: The written weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! There are no video calls or live sessions. During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
+      - question: Why is a credit card required to register?
+        answer: The program is free to join, but we need your credit card to donate to charity on your behalf ONLY if you don't complete the program. This increases your chance of success by 6x and ensures that everyone in your group is serious.
+      - question: What if I check in consistently, but fail to reach my goals? Will I be charged?
+        answer: Nope. As long as you complete all the check-ins on time, you won’t be charged. We believe in self-compassion, understanding and self-love over anything else, including hitting external goals. Sustainable growth and success not only starts with those things, but it requires them.
+      - question: Can I be anonymous?
+        answer: Absolutely! There won't be any video or voice calls. You can also set an anonymous nickname when you join your Moai.
+      - question: How is this different from a course?
+        answer: The program is focused on application, not theory. There will be very limited content and just enough structure for participants to grow at their own pace. It is the best of both worlds - the community of a class paired with the independence of self-learning.
+      - question: What if I have questions or sticking points along the way?
+        answer: Ask away to your Moai - that’s what they’re there for!
+      - question: What is a Moai?
+        answer: A Moai is a social support group. The concept originated in Okinawa, Japan - it means "meeting for a common purpose" in Japanese. According to research, they are considered one of the leading factors of the longevity of lifespan of the Okinawan people, making the region among the highest concentration of centenarians in the world.
+      - question: I have another question. How do I contact you?
+        answer: Shoot us an email at team@themoai.org!
   - block: one-column-1
     slug: waitlist
     headline: Not ready yet? Join the waitlist.
