@@ -193,6 +193,11 @@ input.inverted::placeholder {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 0 0.2rem rgb(0 0 0);
+    z-index: 99;
 }
 
 .block-header-2--logo p {
