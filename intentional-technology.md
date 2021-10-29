@@ -15,8 +15,9 @@ page_sections:
       Make technology work for you. Not the other way around.
       <hr style="width:50%; margin:auto;">
       <p>
-        Introducing our free 30 day group accountability program. <br>
-        Cohort 7 runs from Oct 15 - Nov 14. <br>
+        Introducing our <em>free</em> 30 day group accountability program. <br>
+        Do it on <em>your</em> schedule - it only takes 15 minutes per week.
+        <br><br>
         <!-- <strong>Registration closes on Thu, Oct 14.</strong> -->
         <strong>Registration is now closed.</strong>
       </p>
@@ -32,7 +33,7 @@ page_sections:
     testimonials:
       - quote: "The Moai program plants the seed of habit reformation into your mind -- and even if you don't see the results and tall, green stock you're chasing, it's still taking root and subtly encouraging you to keep trying -- and reminding you that it is possible to create change for oneself."
         role: Student
-        person: P
+        person: Phil
       - quote: "I feel much better about myself now that I have adopted healthier habits and become more productive. I still have aways to go, but I am at a much better spot than one month ago."
         role: Student
         person: M
@@ -84,13 +85,19 @@ page_sections:
         image: '/uploads/community.png'
         alt_text: Community
       headline: Meet your Cohort
-      content: After registration, you're placed into a <em>“Moai”</em> - your intimate cohort of 4 people. You are each other’s source of motivation, accountability and shared learning. There's nothing quite like growing together!
+      content:
+        The program is free to join. After registration, you are placed into a <em>“Moai”</em> - your intimate cohort of 4 peers.
+        <br><br>
+        You are each other’s source of motivation, accountability and shared learning. There's nothing quite like growing together!
     col_2:
       image:
         image: '/uploads/challenge.png'
         alt_text: Challenge
       headline: Follow your Challenge
-      content: Every week, you follow your own challenge and share your insights with your Moai via a quick, guided questionnaire. If you don't do this, your card is charged to charity (not us). Skin in the game!
+      content: 
+        Every week, you follow your own challenge and share your insights with your Moai via a 15 minute questionnaire that you do on <em>your</em> schedule.
+        <br><br>
+        If you don't submit it every Sunday, your card is charged to charity (not us). Skin in the game!
     col_3:
       image:
         image: '/uploads/healthy-lifestyle.png'
@@ -103,7 +110,7 @@ page_sections:
       headline: Our Principles
     col_1:
       headline: Aligned Incentives
-      content: We only make money if you succeed. There is no conflict of interest, unlike other business models, e.g ads, endorsements, affiliate links. They are rewarded by consumption, not action.
+      content: We only make money if you succeed. There is no conflict of interest, unlike other business models (e.g ads, endorsements, affiliate links) that are rewarded by consumption, not action.
     col_2:
       headline: Bias towards Action
       content: Content is deliberately sparse in the program. The emphasis is on execution, not education. Quality content is no longer the bottleneck - the lack of action is.
@@ -122,11 +129,11 @@ page_sections:
     col_2:
       headline: Time Commitment
       content:
-        15 minutes per weekly check-in. Due every Sunday (mandatory).
+        15 minutes per weekly check-in. Do it on your schedule, but it's due every Sunday.
     col_3:
       headline: Stake
       content:
-        You will be charged $100 to charity (not us) - only if you don't complete the program.
+        You will be charged $100 to charity (not us) - <strong>only</strong> if you don't submit all the check-ins.
   - block: registration-bar
     class: alt
     closed: true
@@ -140,11 +147,13 @@ page_sections:
       - question: What is the time commitment?
         answer: The written weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! There are no video calls or live sessions. During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
       - question: Why is a credit card required to register?
-        answer: The program is free to join, but we need your credit card to donate to charity on your behalf ONLY if you don't complete the program. This increases your chance of success by 6x and ensures that everyone in your group is serious.
+        answer: The program is free to join. Your credit card will NOT be charged upon registration. However, we need your card information to donate to charity on your behalf ONLY if you don't complete the program. This increases your chance of success by 6x and ensures that everyone in your group is serious.
       - question: What if I check in consistently, but fail to reach my goals? Will I be charged?
         answer: Nope. As long as you complete all the check-ins on time, you won’t be charged. We believe in self-compassion, understanding and self-love over anything else, including hitting external goals. Sustainable growth and success not only starts with those things, but it requires them.
       - question: Can I be anonymous?
         answer: Absolutely! There won't be any video or voice calls. You can also set an anonymous nickname when you join your Moai.
+      - question: If I fail, what charity does my stake go to?
+        answer: By default, it goes to GiveDirectly (we are not affiliated with them). It's worth noting that we've never had to do this yet - we hope you're not the first! If you have another preference, please email us at team@themoai.org.
       - question: How is this different from a course?
         answer: The program is focused on application, not theory. There will be very limited content and just enough structure for participants to grow at their own pace. It is the best of both worlds - the community of a class paired with the independence of self-learning.
       - question: What if I have questions or sticking points along the way?

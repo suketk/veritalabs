@@ -35,7 +35,7 @@ page_sections:
     testimonials:
       - quote: "The Moai program plants the seed of habit reformation into your mind -- and even if you don't see the results and tall, green stock you're chasing, it's still taking root and subtly encouraging you to keep trying -- and reminding you that it is possible to create change for oneself."
         role: Student
-        person: P
+        person: Phil
       - quote: "I feel much better about myself now that I have adopted healthier habits and become more productive. I still have aways to go, but I am at a much better spot than one month ago."
         role: Student
         person: M
@@ -127,7 +127,7 @@ page_sections:
     col_1:
       headline: Dates
       content:
-        Runs for 30 days. Nov 12 - Dec 12.
+        Runs for 30 days. November 12 - December 12.
     col_2:
       headline: Time Commitment
       content:
@@ -155,7 +155,7 @@ page_sections:
       - question: Can I be anonymous?
         answer: Absolutely! There won't be any video or voice calls. You can also set an anonymous nickname when you join your Moai.
       - question: If I fail, what charity does my stake go to?
-        answer: By default, it goes to GiveDirectly. It's worth noting that we've never had to do this yet - we hope you're not the first! If you have another preference, please email us at team@themoai.org.
+        answer: By default, it goes to GiveDirectly (we are not affiliated with them). It's worth noting that we've never had to do this yet - we hope you're not the first! If you have another preference, please email us at team@themoai.org.
       - question: How is this different from a course?
         answer: The program is focused on application, not theory. There will be very limited content and just enough structure for participants to grow at their own pace. It is the best of both worlds - the community of a class paired with the independence of self-learning.
       - question: What if I have questions or sticking points along the way?
