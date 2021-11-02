@@ -35,13 +35,13 @@ page_sections:
     testimonials:
       - quote: "The Moai program plants the seed of habit reformation into your mind -- and even if you don't see the results and tall, green stock you're chasing, it's still taking root and subtly encouraging you to keep trying -- and reminding you that it is possible to create change for oneself."
         role: Student
-        person: Phil
+        person: Phil Fry
       - quote: "I feel much better about myself now that I have adopted healthier habits and become more productive. I still have aways to go, but I am at a much better spot than one month ago."
         role: Student
         person: M
       - quote: "My brain feels less foggy and more relaxed. Learning to be kind to myself in the face of failure has been a HUGE step in allowing myself to grow and develop better habits."
         role: Student
-        person: M
+        person: Mickayla
   - block: three-column-1
     class: alt
     title:
@@ -135,7 +135,7 @@ page_sections:
     col_3:
       headline: Stake
       content:
-        You will be charged $100 to charity (not us) - <strong>only</strong> if you don't submit all the check-ins.
+        You will be charged $100 to charity (not us) if you don't submit all the check-ins. <em>(Intro call is opt-in.)</em>
   - block: registration-bar
     class: alt
     # closed: true

@@ -33,13 +33,13 @@ page_sections:
     testimonials:
       - quote: "The Moai program plants the seed of habit reformation into your mind -- and even if you don't see the results and tall, green stock you're chasing, it's still taking root and subtly encouraging you to keep trying -- and reminding you that it is possible to create change for oneself."
         role: Student
-        person: Phil
+        person: Phil Fry
       - quote: "I feel much better about myself now that I have adopted healthier habits and become more productive. I still have aways to go, but I am at a much better spot than one month ago."
         role: Student
         person: M
       - quote: "My brain feels less foggy and more relaxed. Learning to be kind to myself in the face of failure has been a HUGE step in allowing myself to grow and develop better habits."
         role: Student
-        person: M
+        person: Mickayla
   - block: three-column-1
     class: circle alt
     title:
@@ -145,13 +145,13 @@ page_sections:
       headline: FAQs
     faqs:
       - question: What is the time commitment?
-        answer: The written weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! There are no video calls or live sessions. During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
+        answer: The written weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! Other than the intro call (which is opt-in), there are no video calls or live sessions. During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
       - question: Why is a credit card required to register?
         answer: The program is free to join. Your credit card will NOT be charged upon registration. However, we need your card information to donate to charity on your behalf ONLY if you don't complete the program. This increases your chance of success by 6x and ensures that everyone in your group is serious.
       - question: What if I check in consistently, but fail to reach my goals? Will I be charged?
         answer: Nope. As long as you complete all the check-ins on time, you won’t be charged. We believe in self-compassion, understanding and self-love over anything else, including hitting external goals. Sustainable growth and success not only starts with those things, but it requires them.
       - question: Can I be anonymous?
-        answer: Absolutely! There won't be any video or voice calls. You can also set an anonymous nickname when you join your Moai.
+        answer: Absolutely! Other than the intro call (which is opt-in), there are no video or voice calls. You can also set an anonymous nickname when you join your Moai.
       - question: If I fail, what charity does my stake go to?
         answer: By default, it goes to GiveDirectly (we are not affiliated with them). It's worth noting that we've never had to do this yet - we hope you're not the first! If you have another preference, please email us at team@themoai.org.
       - question: How is this different from a course?
