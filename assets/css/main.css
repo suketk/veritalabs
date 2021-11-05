@@ -815,3 +815,16 @@ body {
 	color: #482846;
 	font-size: 3rem;
 }
+
+.footnotes {
+	margin-top: 3rem;
+}
+
+.footnotes p {
+	font-size: 1rem;
+	font-style: italic;
+}
+
+sup {
+	font-size: small;
+}
