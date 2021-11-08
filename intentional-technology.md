@@ -18,8 +18,9 @@ page_sections:
         Introducing our <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        <!-- <strong>Registration closes on Thu, Oct 14.</strong> -->
-        <strong>Registration is now closed.</strong>
+        Cohort 8 runs from Nov 19 - Dec 19. <br>
+        <strong>Registration closes on Thu, Nov 18.</strong>
+        <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
       enabled: true
@@ -31,50 +32,50 @@ page_sections:
     title:
       headline: Testimonials
     testimonials:
-      - quote: "The Moai program plants the seed of habit reformation into your mind -- and even if you don't see the results and tall, green stock you're chasing, it's still taking root and subtly encouraging you to keep trying -- and reminding you that it is possible to create change for oneself."
-        role: Student
-        person: Phil Fry
-      - quote: "I feel much better about myself now that I have adopted healthier habits and become more productive. I still have aways to go, but I am at a much better spot than one month ago."
-        role: Student
-        person: M
       - quote: "My brain feels less foggy and more relaxed. Learning to be kind to myself in the face of failure has been a HUGE step in allowing myself to grow and develop better habits."
         role: Student
         person: Mickayla
-  - block: three-column-1
-    class: circle alt
-    title:
-      headline: Who this program is for
-    col_1:
-      image:
-        image: '/uploads/student.jpeg'
-        alt_text: Student
-      headline: Students
-      content: Do you struggle with procrastination and waste too much time on the Internet?
-    col_2:
-      image:
-        image: '/uploads/professional.jpeg'
-        alt_text: Professional
-      headline: Professionals
-      content: Do you spend your precious free time on screens instead of working towards your personal goals?
-    col_3:
-      image:
-        image: '/uploads/entrepreneur.jpeg'
-        alt_text: Entrepreneur
-      headline: Entrepreneurs
-      content: Do you feel constantly distracted by the small things? Are you unable to do deep, focused work?
-  - block: three-column-1
-    title:
-      headline: Be more productive, happy and fulfilled
-      caption: Experience a better life in 5 weeks
-    col_1:
-      headline: Improved Productivity
-      content: Free yourself from mindless distractions that impede on your goals. Get more done.
-    col_2:
-      headline: Better Mental Health
-      content: Addictive technology is the 21st century cigarette. Kick the habit and be happier.
-    col_3:
-      headline: Greater Fulfillment
-      content: Cultivate high-quality leisure to be more energized and fulfilled.
+      - quote: "The Moai program plants the seed of habit reformation into your mind -- and even if you don't see the results and tall, green stock you're chasing, it's still taking root and subtly encouraging you to keep trying -- and reminding you that it is possible to create change for oneself."
+        role: Student
+        person: Phil Fry
+      - quote: "I feel much better about myself now that I have adopted healthier habits and become more productive. I still have a ways to go, but I am at a much better spot than one month ago."
+        role: Student
+        person: M
+  # - block: three-column-1
+  #   class: circle alt
+  #   title:
+  #     headline: Who this program is for
+  #   col_1:
+  #     image:
+  #       image: '/uploads/student.jpeg'
+  #       alt_text: Student
+  #     headline: Students
+  #     content: Do you struggle with procrastination and waste too much time on the Internet?
+  #   col_2:
+  #     image:
+  #       image: '/uploads/professional.jpeg'
+  #       alt_text: Professional
+  #     headline: Professionals
+  #     content: Do you spend your precious free time on screens instead of working towards your personal goals?
+  #   col_3:
+  #     image:
+  #       image: '/uploads/entrepreneur.jpeg'
+  #       alt_text: Entrepreneur
+  #     headline: Entrepreneurs
+  #     content: Do you feel constantly distracted by the small things? Are you unable to do deep, focused work?
+  # - block: three-column-1
+  #   title:
+  #     headline: Be more productive, happy and fulfilled
+  #     caption: Experience a better life in 5 weeks
+  #   col_1:
+  #     headline: Improved Productivity
+  #     content: Free yourself from mindless distractions that impede on your goals. Get more done.
+  #   col_2:
+  #     headline: Better Mental Health
+  #     content: Addictive technology is the 21st century cigarette. Kick the habit and be happier.
+  #   col_3:
+  #     headline: Greater Fulfillment
+  #     content: Cultivate high-quality leisure to be more energized and fulfilled.
   - block: three-column-1
     class: alt
     numbers: true
@@ -95,28 +96,34 @@ page_sections:
         alt_text: Challenge
       headline: Follow your Challenge
       content: 
-        Every week, you follow your own challenge and share your insights with your Moai via a 15 minute questionnaire that you do on <em>your</em> schedule.
+        Every week, you follow a self-set challenge. You then share your insights with your Moai via a 15 minute guided check-in, done on <em>your</em> schedule.
         <br><br>
-        If you don't submit it every Sunday, your card is charged to charity (not us). Skin in the game!
+        Your card is charged<sup>1</sup> to charity (not us) if you don't submit<sup>2</sup> all your check-ins. Skin in the game!
     col_3:
       image:
         image: '/uploads/healthy-lifestyle.png'
         alt_text: Healthy Lifestyle
       headline: Finish!
-      content: You are now a changed person! Pay us what you think it was worth after the program ends and only if you see results. We only make money if you succeed.
+      content:
+        Congratulations! In 30 days, you improved your life and gained the tools to sustain that progress.
+        <br><br>
+        Pay us what you think it was worth and only if you see results. We only make money if you succeed.
+    footnotes:
+      - 'It is free to join, but we need your card upon registration to enforce the stake (only if necessary). See the <a href="#faqs">FAQs</a>.'
+      - 'You are only required to submit the check-in, not succeed with your goals. See the <a href="#faqs">FAQs</a>.'
   - block: three-column-1
     slug: principles
     title:
       headline: Our Principles
     col_1:
-      headline: Aligned Incentives
-      content: We only make money if you succeed. There is no conflict of interest, unlike other business models (e.g ads, endorsements, affiliate links) that are rewarded by consumption, not action.
+      headline: Tighten the Feedback Loop
+      content: Writing is thinking. The check-ins prompt reflection on what worked and what didn’t. By articulating your learnings, you discover actionable advice for next week. This compounds over time.
     col_2:
       headline: Bias towards Action
       content: Content is deliberately sparse in the program. The emphasis is on execution, not education. Quality content is no longer the bottleneck - the lack of action is.
     col_3:
-      headline: Tighten the Feedback Loop
-      content: Writing is thinking. The check-ins force you to reflect on what worked and what didn’t. By articulating your learnings, you discover actionable advice for the next week. This yields compounding results over time.
+      headline: Aligned Incentives
+      content: We only make money if you succeed. There is no conflict of interest, unlike other business models (e.g ads, endorsements, affiliate links) that are rewarded by consumption, not action.
   - block: three-column-1
     slug: signup
     class: alt
@@ -125,7 +132,8 @@ page_sections:
     col_1:
       headline: Dates
       content:
-        Runs for 30 days. October 15 - November 14.
+        Runs for 30 days. <br>
+        November 19 - December 19.
     col_2:
       headline: Time Commitment
       content:
@@ -133,27 +141,28 @@ page_sections:
     col_3:
       headline: Stake
       content:
-        You will be charged $100 to charity (not us) - <strong>only</strong> if you don't submit all the check-ins.
+        You will be charged $100 to charity (not us) if you don't submit ALL the check-ins. <em>(Intro call is opt-in.)</em>
   - block: registration-bar
     class: alt
-    closed: true
+    # closed: true
     program_id: 377ab588-2afc-441c-b5d0-c6f08924ebe8
     success_url: '/intentional-technology-success'
+    intro_call_date: 'Mon, Nov 22'
   - block: faqs
     slug: faqs
     title:
       headline: FAQs
     faqs:
-      - question: What is the time commitment?
-        answer: The written weekly check-ins are due every Sunday and take 15 minutes to complete. That’s it! Other than the intro call (which is opt-in), there are no video calls or live sessions. During the week, you’ll be following your challenge and occasionally sharing your progress (asynchronously via message) with your Moai.
       - question: Why is a credit card required to register?
-        answer: The program is free to join. Your credit card will NOT be charged upon registration. However, we need your card information to donate to charity on your behalf ONLY if you don't complete the program. This increases your chance of success by 6x and ensures that everyone in your group is serious.
-      - question: What if I check in consistently, but fail to reach my goals? Will I be charged?
+        answer: The program is free to join. Your credit card will <strong>not</strong> be charged upon registration. However, we need your card to donate to charity on your behalf <strong>only</strong> if you don't complete the program. This increases your chance of success by 600% and ensures that everyone in your group is serious.
+      - question: Will I be charged if I check in consistently, but fail to reach my goals? 
         answer: Nope. As long as you complete all the check-ins on time, you won’t be charged. We believe in self-compassion, understanding and self-love over anything else, including hitting external goals. Sustainable growth and success not only starts with those things, but it requires them.
+      - question: What is the time commitment?
+        answer: The weekly check-ins only take 15 minutes to complete - you can do them whenever, but they are due every Sunday. That’s it! Other than the intro call (which is opt-in), there are no video calls or live sessions. During the week, you’ll be following your challenge and sharing your progress (optional, but recommended) with your Moai on the Discord group.
       - question: Can I be anonymous?
         answer: Absolutely! Other than the intro call (which is opt-in), there are no video or voice calls. You can also set an anonymous nickname when you join your Moai.
       - question: If I fail, what charity does my stake go to?
-        answer: By default, it goes to GiveDirectly (we are not affiliated with them). It's worth noting that we've never had to do this yet - we hope you're not the first! If you have another preference, please email us at team@themoai.org.
+        answer: By default, it goes to GiveDirectly. We are not affiliated with them. It's worth noting that we've never actually had to do this - we hope you're not the first! If you have another preference, please email us at team@themoai.org.
       - question: How is this different from a course?
         answer: The program is focused on application, not theory. There will be very limited content and just enough structure for participants to grow at their own pace. It is the best of both worlds - the community of a class paired with the independence of self-learning.
       - question: What if I have questions or sticking points along the way?
@@ -170,5 +179,5 @@ page_sections:
   - block: waitlist-bar
     class: alt
   - block: footer-1
-    content: 'Made with ❤︎ in NYC'
+    content: 'Made with ❤︎ in NYC · team@themoai.org'
 ---

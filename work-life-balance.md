@@ -148,6 +148,7 @@ page_sections:
     # closed: true
     program_id: ce657102-983f-4022-b1ba-dfa5f37dd12e
     success_url: '/work-life-balance-success'
+    intro_call_date: 'Mon, Nov 15'
   - block: faqs
     slug: faqs
     title:
@@ -179,5 +180,5 @@ page_sections:
   - block: waitlist-bar
     class: alt
   - block: footer-1
-    content: 'Made with ❤︎ in NYC'
+    content: 'Made with ❤︎ in NYC · team@themoai.org'
 ---
