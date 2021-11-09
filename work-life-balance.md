@@ -15,7 +15,7 @@ page_sections:
       Orient work around life. Not the other way around.
       <hr style="width:50%; margin:auto;">
       <p>
-        Introducing our <em>free</em> 30 day group accountability program. <br>
+        Join a <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
         Cohort 8 runs from Nov 12 - Dec 12. <br>
@@ -110,7 +110,7 @@ page_sections:
         <br><br>
         Pay us what you think it was worth and only if you see results. We only make money if you succeed.
     footnotes:
-      - 'It is free to join, but we need your card upon registration to enforce the stake (only if necessary). See the <a href="#faqs">FAQs</a>.'
+      - 'Your card is not charged on sign-up, but we need it to enforce the stake. See the <a href="#faqs">FAQs</a>.'
       - 'You are only required to submit the check-in, not succeed with your goals. See the <a href="#faqs">FAQs</a>.'
   - block: three-column-1
     slug: principles
