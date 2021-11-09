@@ -1,11 +1,11 @@
 ---
 layout: blocks
-title: Intentional Technology
+title: Habit Reframe Mindset
 date: 2021-10-20
 page_sections:
   - block: header-2
     logo: '/uploads/logo.png'
-    title: Intentional Technology Moai
+    title: Habit Reframe Mindset Moai
     cta:
       url: '#signup'
       button_text: Register
@@ -145,8 +145,8 @@ page_sections:
   - block: registration-bar
     class: alt
     # closed: true
-    program_id: 377ab588-2afc-441c-b5d0-c6f08924ebe8
-    success_url: '/intentional-technology-success'
+    program_id: 17e7b9c9-8a79-40e4-a6b6-a954006f6af7
+    success_url: '/habit-reframe-mindset-success'
     intro_call_date: 'Mon, Nov 22'
   - block: faqs
     slug: faqs
