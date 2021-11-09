@@ -431,14 +431,14 @@ input.inverted::placeholder {
 .testimonial {
 	padding: 1rem;
 	border-radius: 5%;
-	background-color: #482846;
+	background-color: var(--theme);
 }
 
 .testimonial span {
     border-radius: 30%;
     background-color: white;
     padding: 0 0.5rem;
-    color: #482846;
+    color: var(--theme);
 }
 
 .block-testimonials .quote {
@@ -812,7 +812,7 @@ body {
 }
 
 .number {
-	color: #482846;
+	color: var(--theme);
 	font-size: 3rem;
 }
 

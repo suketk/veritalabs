@@ -13,4 +13,4 @@
       {%- include google-analytics.html -%}
     {%- endif -%}
   </head>
-  <body>
+  <body {% if page.primary_color %} style="--theme:{{ page.primary_color }}"{% endif %}>
