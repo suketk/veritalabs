@@ -113,7 +113,7 @@ page_sections:
   - block: registration-bar
     class: alt
     # closed: true
-    program_id: 17e7b9c9-8a79-40e4-a6b6-a954006f6af7
+    program_id: 5d9f4b08-7eda-4d83-a177-a77442a75063
     success_url: '/habit-reframe-mindset-success'
   - block: faqs
     slug: faqs
