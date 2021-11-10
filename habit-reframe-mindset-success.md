@@ -9,5 +9,5 @@ page_sections:
         <strong>In the meantime... </strong><br>
         1. Hold tight - you'll be added to a private group by November 19.<br>
         2. After you're added, submit your <strong>check-in by Sunday, November 21</strong>.<br>
-        3. Email us at team@themoai.org if you have any questions.<br>
+        3. Email me at simon.dagher@gmail.com if you have any questions.<br>
 ---
