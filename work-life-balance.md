@@ -18,16 +18,16 @@ page_sections:
         Join a <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Cohort 8 runs from Nov 12 - Dec 12. <br>
-        <strong>Registration closes on Thu, Nov 11.</strong>
-        <!-- <strong>Registration is now closed.</strong> -->
+        <!-- Cohort 8 runs from Nov 12 - Dec 12. <br> -->
+        <!-- <strong>Registration closes on Thu, Nov 11.</strong>  -->
+        <strong>Registration is now closed.</strong>
       </p>
     cta:
       enabled: true
-      url: '#signup'
-      button_text: 'Join for Free'
-      # url: '#waitlist'
-      # button_text: 'Join the Waitlist'
+      # url: '#signup'
+      # button_text: 'Join for Free'
+      url: '#waitlist'
+      button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Testimonials
@@ -42,41 +42,6 @@ page_sections:
       - quote: "I feel much better about myself now that I have adopted healthier habits and become more productive. I still have a ways to go, but I am at a much better spot than one month ago."
         role: Student
         person: M
-  # - block: three-column-1
-  #   class: alt
-  #   title:
-  #     headline: Who this program is for
-  #   col_1:
-  #     image:
-  #       image: '/uploads/working.png'
-  #       alt_text: Busy Professionals
-  #     headline: Busy Professionals
-  #     content: Are you always swamped and struggle to take time out for yourself?
-  #   col_2:
-  #     image:
-  #       image: '/uploads/teleworking.png'
-  #       alt_text: Remote Workers
-  #     headline: Remote Workers
-  #     content: Is the lack of a physical office making it difficult to draw a line between work and life?
-  #   col_3:
-  #     image:
-  #       image: '/uploads/work-from-home.png'
-  #       alt_text: People in Transition
-  #     headline: People in Transition
-  #     content: Have recent family or career changes made you rethink your work-life balance?
-  # - block: three-column-1
-  #   title:
-  #     headline: Be more productive, happy and fulfilled
-  #     caption: Experience a better life in 5 weeks
-  #   col_1:
-  #     headline: Improved Productivity
-  #     content: Breaks are essential for sustained productivity. It's a marathon, not a sprint.
-  #   col_2:
-  #     headline: Better Mental Health
-  #     content: Less stress makes you less prone to burnout. Be happier and more relaxed.
-  #   col_3:
-  #     headline: Greater Fulfillment
-  #     content: Cultivate high-quality leisure to be more energized and fulfilled.
   - block: three-column-1
     class: alt
     numbers: true
@@ -145,7 +110,7 @@ page_sections:
         You will be charged $100 to charity (not us) if you don't submit ALL the check-ins. <em>(Intro call is opt-in.)</em>
   - block: registration-bar
     class: alt
-    # closed: true
+    closed: true
     program_id: ce657102-983f-4022-b1ba-dfa5f37dd12e
     success_url: '/work-life-balance-success'
     intro_call_date: 'Mon, Nov 15'
