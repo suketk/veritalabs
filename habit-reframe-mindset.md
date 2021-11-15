@@ -33,17 +33,20 @@ page_sections:
       # button_text: 'Join the Waitlist'
   - block: testimonials
     title:
-      headline: Testimonials
+      headline: Feedback from past participants
     testimonials:
-      - quote: "A month ago, I felt desperate and lost. Now I feel that I have a hold on this internal beast and an actionable plan to continue my improvement. I have hope again, actually. I’m starting to like the person I’m becoming."
+      - quote:
+          The biggest highlight of the program for me was the feeling that I’ve finally “cracked procrastination” after so many years of struggle. There’s still a long way to go, since I’m dealing with a deeply rooted, very old and tricky habit, but this gives me so much hope. That it is actually possible to defeat it and that I can be in control of my own life and mind, while enjoying the process. Pair that with being more aware of my internal processes through mindfulness and learning about the critical importance of abstinence from vices, and the value that the program provided in four weeks is immeasurable.
         role: Student
-        person: G
-      - quote: "I’ve finally cracked procrastination after so many years of struggle. There’s still a long way to go, since I’m dealing with a deeply rooted, very old and tricky habit, but this gives me so much hope. That it is actually possible to defeat it and that I can be in control of my own life and mind, while enjoying the process."
+        person: Milan
+      - quote: 
+          After reading Simon's PDF about the Habit Reframe Method I was hooked on the idea and felt like it would actually help me create a change in my life. Although I really liked the idea I was still overall "lazy" so I was slow to get started. Thankfully, pretty soon after Simon told me about how he would start a small group so we could work on it together and it felt like it was exactly what I needed. After these 4 works, I'm proud to say I've made many improvements, on paper it's not much, but mentally I've grown a lot and I know I'm on the right track now for accomplishing my goals.
         role: Student
-        person: M
-      - quote: "The program really worked for me and gave me a great amount of valuable self-knowledge. The success I was able to achieve with the methods taught has given me valuable insight into my own abilities, and useful tools that I continue to use and value."
+        person: Mo
+      - quote: 
+          While I entered this program with high expectations of the program - and little faith in my own abilities - I found that the outcome was better than I expected. The program really did work for me, and gave me a great amount of valuable self-knowledge. The success I was able to achieve with the methods taught has given me valuable insight into my own abilities, and useful tools that I continue to use and value.
         role: Student
-        person: G
+        person: Galen
   - block: three-column-1
     class: alt
     numbers: true
