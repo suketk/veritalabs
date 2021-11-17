@@ -145,7 +145,7 @@ page_sections:
   - block: registration-bar
     class: alt
     # closed: true
-    program_id: 377ab588-2afc-441c-b5d0-c6f08924ebe8
+    program_id: 215f25a3-4f04-41c3-88f0-f229ea34a2ab
     success_url: '/intentional-technology-success'
     intro_call_date: 'Mon, Nov 22'
   - block: faqs
