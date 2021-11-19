@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Intentional Technology
+title: Intentional Technology (Stakeless)
 date: 2021-10-20
 page_sections:
   - block: header-2
@@ -19,15 +19,15 @@ page_sections:
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
         Cohort 8 runs from Nov 19 - Dec 19. <br>
-        <strong>Registration closes on Thu, Nov 18.</strong>
-        <!-- <strong>Registration is now closed.</strong> -->
+        <!-- <strong>Registration closes on Thu, Nov 18.</strong> -->
+        <strong>Registration is now closed.</strong>
       </p>
     cta:
       enabled: true
-      url: '#signup'
-      button_text: 'Join for Free'
-      # url: '#waitlist'
-      # button_text: 'Join the Waitlist'
+      # url: '#signup'
+      # button_text: 'Join for Free'
+      url: '#waitlist'
+      button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Testimonials
@@ -41,41 +41,6 @@ page_sections:
       - quote: "I feel much better about myself now that I have adopted healthier habits and become more productive. I still have a ways to go, but I am at a much better spot than one month ago."
         role: Student
         person: M
-  # - block: three-column-1
-  #   class: circle alt
-  #   title:
-  #     headline: Who this program is for
-  #   col_1:
-  #     image:
-  #       image: '/uploads/student.jpeg'
-  #       alt_text: Student
-  #     headline: Students
-  #     content: Do you struggle with procrastination and waste too much time on the Internet?
-  #   col_2:
-  #     image:
-  #       image: '/uploads/professional.jpeg'
-  #       alt_text: Professional
-  #     headline: Professionals
-  #     content: Do you spend your precious free time on screens instead of working towards your personal goals?
-  #   col_3:
-  #     image:
-  #       image: '/uploads/entrepreneur.jpeg'
-  #       alt_text: Entrepreneur
-  #     headline: Entrepreneurs
-  #     content: Do you feel constantly distracted by the small things? Are you unable to do deep, focused work?
-  # - block: three-column-1
-  #   title:
-  #     headline: Be more productive, happy and fulfilled
-  #     caption: Experience a better life in 5 weeks
-  #   col_1:
-  #     headline: Improved Productivity
-  #     content: Free yourself from mindless distractions that impede on your goals. Get more done.
-  #   col_2:
-  #     headline: Better Mental Health
-  #     content: Addictive technology is the 21st century cigarette. Kick the habit and be happier.
-  #   col_3:
-  #     headline: Greater Fulfillment
-  #     content: Cultivate high-quality leisure to be more energized and fulfilled.
   - block: three-column-1
     class: alt
     numbers: true
@@ -141,8 +106,8 @@ page_sections:
         You determine your own penalty. Enforce it if you don't submit all the check-ins. Honor system!
   - block: registration-bar
     class: alt
-    # closed: true
-    program_id: 377ab588-2afc-441c-b5d0-c6f08924ebe8
+    closed: true
+    program_id: 215f25a3-4f04-41c3-88f0-f229ea34a2ab
     success_url: '/intentional-technology-success'
     stakeless: true
   - block: faqs
