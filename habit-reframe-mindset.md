@@ -3,7 +3,6 @@ layout: blocks
 title: Habit Reframe Mindset
 date: 2021-10-20
 primary_color: '#221f20'
-secondary_color: '#8ddfc2'
 page_sections:
   - block: header-2
     logo: '/uploads/logo.png'
@@ -118,6 +117,7 @@ page_sections:
     closed: true
     program_id: 5d9f4b08-7eda-4d83-a177-a77442a75063
     success_url: '/habit-reframe-mindset-success'
+    staked: true
   - block: faqs
     slug: faqs
     title:

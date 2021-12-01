@@ -1,0 +1,72 @@
+<section id="{{ section.slug | slugify }}">
+  <div class="block block-registration-bar {{section.class}}">
+    <div class="container">
+      <div class="columns">
+          <div class="cta">
+
+            {% if section.closed %}
+
+              <p> Registration is now closed. Join the <a href="#waitlist">waitlist</a> below. </p>
+
+            {% else %}
+
+              <form action="{{ site.backend }}/register" method="POST" id="register">
+              <input type="name" placeholder="Name" name="name" required>
+              <input type="email" placeholder="Email address" name="email" required>
+
+              <div class="select">
+                <label for="staked">
+                  Should we enforce your penalty?
+                </label>
+                <select name="staked" id="staked" onchange="updateForm()" required>
+                  <option value="" disabled selected>Select your option.</option>
+                  <option value="true">Yes! (We require your credit card to do this.)</option>
+                  <option value="false">No, I prefer the honor system.</option>
+                </select>
+              </div>
+
+              <label for="stake" style="display: none">?</label>
+              <input type="text" name="stake" id="stake"style="display: none" required>
+
+              <input type="hidden" name="referrer">
+              <input type="hidden" name="success_url"= value="{{ site.url }}{{ section.success_url }}">
+              <input type="hidden" name="cancel_url">
+              <input type="hidden" name="program_id" value="{{ section.program_id }}">
+              <button type="submit" class="button primary"><strong>Join Now!</strong></button>
+              </form>
+
+            {% endif %}
+
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  document.forms['register'].elements['referrer'].value = new URLSearchParams(location.search).get('referrer')
+  document.forms['register'].elements['cancel_url'].value = window.location.href
+
+  window.addEventListener("pageshow", () => {
+    updateForm()
+  })
+
+  function updateForm() {
+    if (document.forms['register'].elements['staked'].value == '') {
+      return
+    }
+
+    val = document.forms['register'].elements['staked'].value == 'true'
+    stake = document.forms['register'].elements['stake']
+
+    stake.style.display = 'block'
+    stake.labels[0].style.display = 'block'
+    stake.value = ''
+
+    stake.labels[0].innerHTML = val ? `
+    Enter the amount to charge you for every missed check-in (in USD).<br>
+    <em>This goes to charity, not us. See the <a href="#faqs">FAQs</a>.</em>` :
+    'What is your penalty for every missed check-in?'
+    stake.placeholder = val ? '$25' : 'Donate $25 to charity'
+    stake.type = val ? 'number' : 'text'
+  }
+</script>

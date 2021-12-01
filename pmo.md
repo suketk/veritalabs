@@ -129,9 +129,10 @@ page_sections:
         You will be charged $100 to charity (not us) - <strong>only</strong> if you don't submit all the check-ins.
   - block: registration-bar
     class: alt
-    # closed: true
+    closed: true
     program_id: 3dfd5535-4739-4d11-950b-17e2aed307ce
     success_url: '/pmo-success'
+    staked: true
   - block: faqs
     slug: faqs
     title:

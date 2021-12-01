@@ -109,7 +109,7 @@ page_sections:
     closed: true
     program_id: 215f25a3-4f04-41c3-88f0-f229ea34a2ab
     success_url: '/intentional-technology-success'
-    stakeless: true
+    staked: false
   - block: faqs
     slug: faqs
     title:

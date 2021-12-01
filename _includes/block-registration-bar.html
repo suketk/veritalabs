@@ -31,25 +31,24 @@
 
               {% endif %}
 
-              {% if section.stakeless %}
+              {% if section.staked %}
 
-              <label for="stake">What is your penalty if you don't complete the program?</label>
-              <input type="text" name="stake" id="stake" placeholder="Donate $100 to charity" required>
-
-
-              {% else %}
-              
               <div class="checkbox">
                 <input type="checkbox" name="ack" id="ack" required>
                 <label for="ack">
                   <strong>I understand that my card is not charged on sign-up - it's only required to enforce the stake.</strong> <em>Details in <a href="#faqs">FAQs</a></em>
                 </label>
               </div>
+
+              {% else %}
+
+              <label for="stake">What is your penalty if you don't complete the program?</label>
+              <input type="text" name="stake" id="stake" placeholder="Donate $100 to charity" required>
               
               {% endif %}
 
               <input type="hidden" name="referrer">
-              <input type="hidden" name="stakeless" value="{{ section.stakeless }}">
+              <input type="hidden" name="staked" value="{{ section.staked }}">
               <input type="hidden" name="success_url"= value="{{ site.url }}{{ section.success_url }}">
               <input type="hidden" name="cancel_url">
               <input type="hidden" name="program_id" value="{{ section.program_id }}">

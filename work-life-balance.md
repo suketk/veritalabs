@@ -114,6 +114,7 @@ page_sections:
     program_id: ce657102-983f-4022-b1ba-dfa5f37dd12e
     success_url: '/work-life-balance-success'
     intro_call_date: 'Mon, Nov 15'
+    staked: true
   - block: faqs
     slug: faqs
     title:

@@ -113,6 +113,7 @@ page_sections:
     program_id: 215f25a3-4f04-41c3-88f0-f229ea34a2ab
     success_url: '/intentional-technology-success'
     intro_call_date: 'Mon, Nov 22'
+    staked: true
   - block: faqs
     slug: faqs
     title:
