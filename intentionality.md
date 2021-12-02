@@ -19,7 +19,7 @@ page_sections:
         Only 15 minutes every week.
         <br><br>
         Runs from December 3 - January 2. <br>
-        <strong>Registration closes on Thursday, December 2.</strong>
+        <strong>Registration closes on Friday, December 3.</strong>
         <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
@@ -52,7 +52,7 @@ page_sections:
         alt_text: Accountability
       headline: Commit
       content:
-        You set a penalty to hold yourself accountable and give the program a fair chance.
+        You set a penalty to hold yourself accountable - so you give the program a fair chance.
         <br><br>
         Enforce it yourself or have us do it for you.
     col_2:
@@ -107,9 +107,8 @@ page_sections:
   - block: registration-bar-checkin-only
     class: alt
     closed: false
-    program_id: 215f25a3-4f04-41c3-88f0-f229ea34a2ab
-    success_url: '/intentional-technology-success'
-    intro_call_date: 'Mon, Nov 22'
+    program_id: 8ffeb0c7-6f2b-4dea-9598-ede8e022765a
+    success_url: '/intentionality-success'
   - block: faqs
     slug: faqs
     title:
