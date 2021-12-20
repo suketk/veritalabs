@@ -20,9 +20,9 @@ page_sections:
         Join our <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Cohort 8 runs from Nov 19 - Dec 19. <br>
-        <!-- <strong>Registration closes on Thu, Nov 18.</strong> -->
-        <strong>Registration is now closed.</strong>
+        Cohort 15 runs from Dec 31 - Jan 30. <br>
+        <strong>Registration closes on Thu, Dec 30.</strong>
+        <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
       enabled: true
@@ -103,7 +103,7 @@ page_sections:
       headline: Dates
       content:
         Runs for 30 days. <br>
-        November 19 - December 19.
+        December 31 - January 30.
     col_2:
       headline: Time Commitment
       content:
@@ -114,7 +114,7 @@ page_sections:
         You will be charged $100 to charity (not us) if you don't submit ALL the check-ins.
   - block: registration-bar
     class: alt
-    closed: true
+    closed: false
     program_id: 5d9f4b08-7eda-4d83-a177-a77442a75063
     success_url: '/habit-reframe-mindset-success'
     staked: true

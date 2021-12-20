@@ -7,7 +7,7 @@ page_sections:
     headline: <strong>Registration complete!</strong>
     content:
         <strong>In the meantime... </strong><br>
-        1. Hold tight - you'll be added to a private group by November 19.<br>
-        2. After you're added, submit your <strong>check-in by Sunday, November 21</strong>.<br>
+        1. Hold tight - you'll be added to a private group by December 24.<br>
+        2. After you're added, submit your <strong>check-in by Sunday, December 26</strong>.<br>
         3. Email us at team@themoai.org if you have any questions.<br>
 ---

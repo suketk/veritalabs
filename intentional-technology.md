@@ -18,16 +18,16 @@ page_sections:
         Introducing our <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Cohort 8 runs from Nov 19 - Dec 19. <br>
-        <!-- <strong>Registration closes on Thu, Nov 18.</strong> -->
-        <strong>Registration is now closed.</strong>
+        Cohort 12 runs from Dec 24 - Jan 23. <br>
+        <strong>Registration closes on Thu, Dec 23.</strong>
+        <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
       enabled: true
-      # url: '#signup'
-      # button_text: 'Join for Free'
-      url: '#waitlist'
-      button_text: 'Join the Waitlist'
+      url: '#signup'
+      button_text: 'Join for Free'
+      # url: '#waitlist'
+      # button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Testimonials
@@ -98,7 +98,7 @@ page_sections:
       headline: Dates
       content:
         Runs for 30 days. <br>
-        November 19 - December 19.
+        December 24 - January 23.
     col_2:
       headline: Time Commitment
       content:
@@ -106,13 +106,13 @@ page_sections:
     col_3:
       headline: Stake
       content:
-        You will be charged $100 to charity (not us) if you don't submit ALL the check-ins. <em>(Intro call is opt-in.)</em>
+        You will be charged $100 to charity (not us) if you don't submit ALL the check-ins.
   - block: registration-bar
     class: alt
-    closed: true
+    closed: false
     program_id: 215f25a3-4f04-41c3-88f0-f229ea34a2ab
     success_url: '/intentional-technology-success'
-    intro_call_date: 'Mon, Nov 22'
+    # intro_call_date: 'Mon, Nov 22'
     staked: true
   - block: faqs
     slug: faqs
@@ -124,9 +124,9 @@ page_sections:
       - question: Will I be charged if I check in consistently, but fail to reach my goals? 
         answer: Nope. As long as you complete all the check-ins on time, you won’t be charged. We believe in self-compassion, understanding and self-love over anything else, including hitting external goals. Sustainable growth and success not only starts with those things, but it requires them.
       - question: What is the time commitment?
-        answer: The weekly check-ins only take 15 minutes to complete - you can do them whenever, but they are due every Sunday. That’s it! Other than the intro call (which is opt-in), there are no video calls or live sessions. During the week, you’ll be following your challenge and sharing your progress (optional, but recommended) with your Moai on the Discord group.
+        answer: The weekly check-ins only take 15 minutes to complete - you can do them whenever, but they are due every Sunday. That’s it! There are no video calls or live sessions. During the week, you’ll be following your challenge and sharing your progress (optional, but recommended) with your Moai on the Discord group.
       - question: Can I be anonymous?
-        answer: Absolutely! Other than the intro call (which is opt-in), there are no video or voice calls. You can also set an anonymous nickname when you join your Moai.
+        answer: Absolutely! There are no video or voice calls. You can also set an anonymous nickname when you join your Moai.
       - question: If I fail, what charity does my stake go to?
         answer: By default, it goes to GiveDirectly. We are not affiliated with them. It's worth noting that we've never actually had to do this - we hope you're not the first! If you have another preference, please email us at team@themoai.org.
       - question: How is this different from a course?
