@@ -115,7 +115,7 @@ page_sections:
   - block: registration-bar
     class: alt
     closed: false
-    program_id: 5d9f4b08-7eda-4d83-a177-a77442a75063
+    cohort_id: db610ab6-ebf9-4f9e-8088-055df325d5bd
     success_url: '/habit-reframe-mindset-success'
     staked: true
   - block: faqs

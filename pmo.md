@@ -130,7 +130,7 @@ page_sections:
   - block: registration-bar
     class: alt
     closed: true
-    program_id: 3dfd5535-4739-4d11-950b-17e2aed307ce
+    cohort_id: 3dfd5535-4739-4d11-950b-17e2aed307ce
     success_url: '/pmo-success'
     staked: true
   - block: faqs

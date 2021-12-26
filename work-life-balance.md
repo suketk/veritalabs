@@ -110,10 +110,10 @@ page_sections:
         You will be charged $100 to charity (not us) if you don't submit ALL the check-ins. <em>(Intro call is opt-in.)</em>
   - block: registration-bar
     class: alt
-    closed: true
-    program_id: ce657102-983f-4022-b1ba-dfa5f37dd12e
+    # closed: true
+    cohort_id: f248706a-e6c7-4de8-8e5a-83756e18be49
     success_url: '/work-life-balance-success'
-    intro_call_date: 'Mon, Nov 15'
+    # intro_call_date: 'Mon, Nov 15'
     staked: true
   - block: faqs
     slug: faqs

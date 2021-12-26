@@ -110,7 +110,7 @@ page_sections:
   - block: registration-bar
     class: alt
     closed: false
-    program_id: 215f25a3-4f04-41c3-88f0-f229ea34a2ab
+    cohort_id: fb29ca2c-6812-47ce-a115-f59fbcd8ec7d
     success_url: '/intentional-technology-success'
     # intro_call_date: 'Mon, Nov 22'
     staked: true
