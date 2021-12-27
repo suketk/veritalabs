@@ -18,16 +18,16 @@ page_sections:
         Join a <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        <!-- Cohort 8 runs from Nov 12 - Dec 12. <br> -->
-        <!-- <strong>Registration closes on Thu, Nov 11.</strong>  -->
-        <strong>Registration is now closed.</strong>
+        Next cohort runs from Jan 14 - Feb 13. <br>
+        <strong>Registration closes on Thu, Jan 13.</strong> 
+        <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
       enabled: true
-      # url: '#signup'
-      # button_text: 'Join for Free'
-      url: '#waitlist'
-      button_text: 'Join the Waitlist'
+      url: '#signup'
+      button_text: 'Join for Free'
+      # url: '#waitlist'
+      # button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Testimonials
@@ -99,7 +99,7 @@ page_sections:
       headline: Dates
       content:
         Runs for 30 days. <br>
-        November 12 - December 12.
+        January 14 - February 13.
     col_2:
       headline: Time Commitment
       content:
@@ -113,7 +113,7 @@ page_sections:
     # closed: true
     cohort_id: f248706a-e6c7-4de8-8e5a-83756e18be49
     success_url: '/work-life-balance-success'
-    # intro_call_date: 'Mon, Nov 15'
+    intro_call_date: 'Mon, Jan 17'
     staked: true
   - block: faqs
     slug: faqs
