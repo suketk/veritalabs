@@ -19,15 +19,15 @@ page_sections:
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
         Cohort 12 runs from Dec 24 - Jan 23. <br>
-        <strong>Registration closes on Thu, Dec 23.</strong>
-        <!-- <strong>Registration is now closed.</strong> -->
+        <!-- <strong>Registration closes on Thu, Dec 23.</strong> -->
+        <strong>Registration is now closed.</strong>
       </p>
     cta:
       enabled: true
-      url: '#signup'
-      button_text: 'Join for Free'
-      # url: '#waitlist'
-      # button_text: 'Join the Waitlist'
+      # url: '#signup'
+      # button_text: 'Join for Free'
+      url: '#waitlist'
+      button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Testimonials
@@ -109,7 +109,7 @@ page_sections:
         You will be charged $100 to charity (not us) if you don't submit ALL the check-ins.
   - block: registration-bar
     class: alt
-    closed: false
+    closed: true
     cohort_id: fb29ca2c-6812-47ce-a115-f59fbcd8ec7d
     success_url: '/intentional-technology-success'
     # intro_call_date: 'Mon, Nov 22'

@@ -21,15 +21,15 @@ page_sections:
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
         Cohort 15 runs from Dec 31 - Jan 30. <br>
-        <strong>Registration closes on Thu, Dec 30.</strong>
-        <!-- <strong>Registration is now closed.</strong> -->
+        <!-- <strong>Registration closes on Thu, Dec 30.</strong> -->
+        <strong>Registration is now closed.</strong>
       </p>
     cta:
       enabled: true
-      url: '#signup'
-      button_text: 'Join for Free'
-      # url: '#waitlist'
-      # button_text: 'Join the Waitlist'
+      # url: '#signup'
+      # button_text: 'Join for Free'
+      url: '#waitlist'
+      button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Feedback from past participants
@@ -114,7 +114,7 @@ page_sections:
         You will be charged $100 to charity (not us) if you don't submit ALL the check-ins.
   - block: registration-bar
     class: alt
-    closed: false
+    closed: true
     cohort_id: db610ab6-ebf9-4f9e-8088-055df325d5bd
     success_url: '/habit-reframe-mindset-success'
     staked: true
