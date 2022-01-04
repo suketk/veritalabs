@@ -783,7 +783,7 @@ body {
 	flex-direction: column;
 }
 
-.block-registration-bar form .select label {
+.block-registration-bar form label {
 	color:  #666;
 	margin-bottom: 0.5rem;
 }

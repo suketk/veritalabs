@@ -25,7 +25,7 @@ page_sections:
     cta:
       enabled: true
       url: '#signup'
-      button_text: 'Join for Free'
+      button_text: 'Register'
       # url: '#waitlist'
       # button_text: 'Join the Waitlist'
   - block: testimonials
@@ -51,20 +51,20 @@ page_sections:
       image:
         image: '/uploads/community.png'
         alt_text: Community
-      headline: Meet your Cohort
+      headline: Register
       content:
-        The program is free to join. After registration, you are placed into a <em>“Moai”</em> - your intimate cohort of 4 peers.
+        Registration is free, but requires a credit card for accountability (explained next).
         <br><br>
-        You are each other’s source of motivation, accountability and shared learning. There's nothing quite like growing together!
+        After joining, you are placed into a <em>“Moai”</em> - your intimate cohort of 4 peers.
     col_2:
       image:
         image: '/uploads/challenge.png'
         alt_text: Challenge
       headline: Follow your Challenge
       content: 
-        Every week, you follow a self-set challenge. You then share your insights with your Moai via a 15 minute guided check-in, done on <em>your</em> schedule.
+        Every week, you follow a self-set challenge and submit a 15 minute guided check-in - on <em>your</em> schedule.
         <br><br>
-        Your card is charged<sup>1</sup> to charity (not us) if you don't submit<sup>2</sup> all your check-ins. Skin in the game!
+        <strong>Your card is charged<sup>1</sup> to charity (not us) for every missed<sup>2</sup> check-in. Skin in the game!</strong>
     col_3:
       image:
         image: '/uploads/healthy-lifestyle.png'
@@ -75,7 +75,7 @@ page_sections:
         <br><br>
         Pay us what you think it was worth and only if you see results. We only make money if you succeed.
     footnotes:
-      - 'Your card is not charged on sign-up, but we need it to enforce the stake. See the <a href="#faqs">FAQs</a>.'
+      - 'Your card is not charged on sign-up, but we need it to hold you accountable. See the <a href="#faqs">FAQs</a>.'
       - 'You are only required to submit the check-in, not succeed with your goals. See the <a href="#faqs">FAQs</a>.'
   - block: three-column-1
     slug: principles
@@ -83,10 +83,10 @@ page_sections:
       headline: Our Principles
     col_1:
       headline: Tighten the Feedback Loop
-      content: Writing is thinking. The check-ins prompt reflection on what worked and what didn’t. By articulating your learnings, you discover actionable advice for next week. This compounds over time.
+      content: The check-ins prompt reflection on what worked and what didn’t. Writing is thinking - by articulating your learnings, you discover actionable advice for next week. This compounds over time.
     col_2:
       headline: Bias towards Action
-      content: Content is deliberately sparse in the program. The emphasis is on execution, not education. Quality content is no longer the bottleneck - the lack of action is.
+      content: Content is deliberately sparse in the program. The emphasis is on execution, not education. Quality content isn't the bottleneck - the lack of action is.
     col_3:
       headline: Aligned Incentives
       content: We only make money if you succeed. There is no conflict of interest, unlike other business models (e.g ads, endorsements, affiliate links) that are rewarded by consumption, not action.
@@ -107,13 +107,14 @@ page_sections:
     col_3:
       headline: Stake
       content:
-        You will be charged $100 to charity (not us) if you don't submit ALL the check-ins. <em>(Intro call is opt-in.)</em>
+        You will be charged $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
     # closed: true
     cohort_id: f248706a-e6c7-4de8-8e5a-83756e18be49
     success_url: '/work-life-balance-success'
-    intro_call_date: 'Mon, Jan 17'
+    intro_call_date: 'Fri, Jan 14'
+    first_checkin_date: 'Sun, Jan 16'
     staked: true
   - block: faqs
     slug: faqs
@@ -129,11 +130,9 @@ page_sections:
       - question: Can I be anonymous?
         answer: Absolutely! Other than the intro call (which is opt-in), there are no video or voice calls. You can also set an anonymous nickname when you join your Moai.
       - question: If I fail, what charity does my stake go to?
-        answer: By default, it goes to GiveDirectly. We are not affiliated with them. It's worth noting that we've never actually had to do this - we hope you're not the first! If you have another preference, please email us at team@themoai.org.
+        answer: By default, it goes to GiveDirectly. We are not affiliated with them. If you have another preference, please email us at team@themoai.org.
       - question: How is this different from a course?
         answer: The program is focused on application, not theory. There will be very limited content and just enough structure for participants to grow at their own pace. It is the best of both worlds - the community of a class paired with the independence of self-learning.
-      - question: What if I have questions or sticking points along the way?
-        answer: Ask away to your Moai - that’s what they’re there for!
       - question: What is a Moai?
         answer: A Moai is a social support group. The concept originated in Okinawa, Japan - it means "meeting for a common purpose" in Japanese. According to research, they are considered one of the leading factors of the longevity of lifespan of the Okinawan people, making the region among the highest concentration of centenarians in the world.
       - question: I have another question. How do I contact you?

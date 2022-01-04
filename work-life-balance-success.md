@@ -6,8 +6,9 @@ page_sections:
   - block: hero-1
     headline: <strong>Registration complete!</strong>
     content:
-        <strong>In the meantime... </strong><br>
-        1. Hold tight - you'll be added to a private group by November 12.<br>
-        2. After you're added, submit your <strong>check-in by Sunday, November 14</strong>.<br>
+        <strong>Read the confirmation email for important instructions.</strong> <br><br>
+        Things to remember... <br>
+        1. Join the private <a href="https://discord.gg/pmjtAZwvdH">group</a> by Friday, January 14. <br>
+        2. Submit your first check-in by <strong>Sunday, January 16</strong>.<br>
         3. Email us at team@themoai.org if you have any questions.<br>
 ---

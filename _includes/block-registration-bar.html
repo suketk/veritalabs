@@ -19,13 +19,12 @@
               <div class="select">
                 <label for="call">
                   Will you join a 30 minute intro call with your Moai on <strong>{{ section.intro_call_date }} @ 12pm EST</strong>?<br>
-                  <em>Your answer determines your Moai - strong group relationships result in greater progress.</em><br>
+                  <!-- <em>Your answer determines your Moai - strong group relationships result in greater progress.</em><br> -->
                 </label>
                 <select name="call" id="call" required>
                   <option value="" disabled selected>Select your option.</option>
-                  <option value="yes">Yes! (Your stake is donated if you don't attend.)</option>
-                  <option value="no">No. (Your Moai will contain others who selected this.)</option>
-                  <option value="conflict">I would have, but I have a conflict.</option>
+                  <option value="true">Yes!</option>
+                  <option value="false">No.</option>
                 </select>
               </div>
 
@@ -33,12 +32,20 @@
 
               {% if section.staked %}
 
-              <div class="checkbox">
+
+              <label for="ack">
+                <br>
+                Your card is not charged on sign-up. It's only required to enforce the <strong>$100 to charity for every missed check-in. The first is due on {{ section.first_checkin_date }}</strong> - they only take 15 minutes. <em><a href="#faqs">FAQs</a></em>
+                <br><br>Type "I understand" below. 
+              </label>
+              <input type="text" name="ack" id="ack" pattern=".?I understand.?" required>
+
+<!--               <div class="checkbox">
                 <input type="checkbox" name="ack" id="ack" required>
                 <label for="ack">
                   <strong>I understand that my card is not charged on sign-up - it's only required to enforce the stake.</strong> <em>Details in <a href="#faqs">FAQs</a></em>
                 </label>
-              </div>
+              </div> -->
 
               {% else %}
 
