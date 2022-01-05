@@ -114,7 +114,7 @@ page_sections:
     cohort_id: f248706a-e6c7-4de8-8e5a-83756e18be49
     success_url: '/work-life-balance-success'
     intro_call_date: 'Fri, Jan 14'
-    first_checkin_date: 'Sun, Jan 16'
+    program_dates: 'Jan 14 to Feb 13'
     staked: true
   - block: faqs
     slug: faqs
@@ -135,6 +135,10 @@ page_sections:
         answer: The program is focused on application, not theory. There will be very limited content and just enough structure for participants to grow at their own pace. It is the best of both worlds - the community of a class paired with the independence of self-learning.
       - question: What is a Moai?
         answer: A Moai is a social support group. The concept originated in Okinawa, Japan - it means "meeting for a common purpose" in Japanese. According to research, they are considered one of the leading factors of the longevity of lifespan of the Okinawan people, making the region among the highest concentration of centenarians in the world.
+      - question: Do I get to claim a charitable deduction if my stakes are forfeited to a charity?
+        answer: No. To minimize our bookkeeping and legal costs, we do not provide tax receipts.
+      - question: When do you donate my money to charity?
+        answer: In order to reduce the number of transaction fees incurred, we accumulate the contributions and make the charitable donations en masse during the holiday season at the end of each calendar year.
       - question: I have another question. How do I contact you?
         answer: Shoot us an email at team@themoai.org!
   - block: one-column-1

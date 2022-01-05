@@ -34,11 +34,14 @@
 
 
               <label for="ack">
-                <br>
-                Your card is not charged on sign-up. It's only required to enforce the <strong>$100 to charity (not us) for every missed check-in. The first one is due on {{ section.first_checkin_date }}</strong> - they only take 15 minutes. <em><a href="#faqs">FAQs</a></em>
-                <br><br>Type "I understand" below. 
+                <br>Type <em>"<strong>I understand</strong>"</em> below to acknowledge that:<br><br>
+                <ul>
+                <li>Your card is not charged on sign-up.</li>
+                <li>You are charged $100 to charity (not us) for every unsubmitted check-in.</li>
+                <li>Check-ins are due every Sunday from {{ section.program_dates }}. They take 15 minutes.</li>
+                </ul>
               </label>
-              <input type="text" name="ack" id="ack" pattern=".?I understand.?" required>
+              <input type="text" name="ack" id="ack" placeholder="I understand" pattern=".?I understand.?" required>
 
 <!--               <div class="checkbox">
                 <input type="checkbox" name="ack" id="ack" required>
