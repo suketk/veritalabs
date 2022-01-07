@@ -18,8 +18,8 @@ page_sections:
         Join our <em>free</em> 30 day intentionality program. <br>
         Only 15 minutes every week.
         <br><br>
-        Runs from January 7 - February 6. <br>
-        <strong>Registration closes on Friday, January 7.</strong>
+        Runs from January 14 - February 13. <br>
+        <strong>Registration closes on Friday, January 14.</strong>
         <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
@@ -94,8 +94,8 @@ page_sections:
     col_1:
       headline: Dates
       content:
-        Runs from Jan 7 - Feb 6.<br>
-        Five total check-ins - first one due Sun, Jan 9.
+        Runs from Jan 14 - Feb 13.<br>
+        Five total check-ins - first one due Sun, Jan 16.
     col_2:
       headline: Time Commitment
       content:
@@ -107,7 +107,7 @@ page_sections:
   - block: registration-bar-checkin-only
     class: alt
     closed: false
-    cohort_id: 8fc44fd0-0ca5-4447-a7c6-9984df653bf9
+    cohort_id: 9ce41a60-a502-4745-b377-4fbc299abba8
     success_url: '/intentionality-success'
   - block: faqs
     slug: faqs
@@ -124,6 +124,10 @@ page_sections:
         answer: By default, it goes to GiveDirectly. We are not affiliated with them. It's worth noting that we've never actually had to do this - we hope you're not the first! If you have another preference, please email us at team@themoai.org.
       - question: How is this different from a course?
         answer: The program is focused on application, not theory. There will be very limited content and just enough structure for participants to grow at their own pace.
+      - question: Do I get to claim a charitable deduction if my stakes are forfeited to a charity?
+        answer: No. To minimize our bookkeeping and legal costs, we do not provide tax receipts.
+      - question: When do you donate my money to charity?
+        answer: In order to reduce the number of transaction fees incurred, we accumulate the contributions and make the charitable donations en masse during the holiday season at the end of each calendar year.
       - question: I have another question. How do I contact you?
         answer: Shoot us an email at team@themoai.org!
   - block: one-column-1

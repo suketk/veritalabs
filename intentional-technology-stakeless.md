@@ -125,6 +125,10 @@ page_sections:
         answer: Ask away to your Moai - that’s what they’re there for!
       - question: What is a Moai?
         answer: A Moai is a social support group. The concept originated in Okinawa, Japan - it means "meeting for a common purpose" in Japanese. According to research, they are considered one of the leading factors of the longevity of lifespan of the Okinawan people, making the region among the highest concentration of centenarians in the world.
+      - question: Do I get to claim a charitable deduction if my stakes are forfeited to a charity?
+        answer: No. To minimize our bookkeeping and legal costs, we do not provide tax receipts.
+      - question: When do you donate my money to charity?
+        answer: In order to reduce the number of transaction fees incurred, we accumulate the contributions and make the charitable donations en masse during the holiday season at the end of each calendar year.
       - question: I have another question. How do I contact you?
         answer: Shoot us an email at team@themoai.org!
   - block: one-column-1
