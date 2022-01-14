@@ -110,7 +110,7 @@ page_sections:
         You will be charged $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
-    # closed: true
+    closed: true
     cohort_id: f248706a-e6c7-4de8-8e5a-83756e18be49
     success_url: '/work-life-balance-success'
     intro_call_date: 'Fri, Jan 14'
