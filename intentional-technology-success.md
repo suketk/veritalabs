@@ -1,13 +1,14 @@
 ---
 layout: blocks
 title: Registration Complete
-date: 2021-07-21
+date: 2021-10-20
 page_sections:
   - block: hero-1
     headline: <strong>Registration complete!</strong>
     content:
-        <strong>In the meantime... </strong><br>
-        1. Hold tight - you'll be added to a private group by December 24.<br>
-        2. After you're added, submit your <strong>check-in by Sunday, December 26</strong>.<br>
+        <strong>Read the confirmation email for important instructions.</strong> <br><br>
+        Things to remember... <br>
+        1. Join the private group (invite in email) by Friday, January 28. <br>
+        2. Submit your first check-in by <strong>Sunday, January 30</strong>.<br>
         3. Email us at team@themoai.org if you have any questions.<br>
 ---
