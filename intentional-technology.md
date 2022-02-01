@@ -19,15 +19,15 @@ page_sections:
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
         Next cohort runs from Jan 28 - Feb 27. <br>
-        <strong>Registration closes on Fri, Jan 28.</strong>
-        <!-- <strong>Registration is now closed.</strong> -->
+        <!-- <strong>Registration closes on Fri, Jan 28.</strong> -->
+        <strong>Registration is now closed.</strong>
       </p>
     cta:
       enabled: true
-      url: '#signup'
-      button_text: 'Join for Free'
-      # url: '#waitlist'
-      # button_text: 'Join the Waitlist'
+      # url: '#signup'
+      # button_text: 'Join for Free'
+      url: '#waitlist'
+      button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Testimonials
@@ -75,6 +75,7 @@ page_sections:
         Pay us what you think it was worth and only if you see results. We only make money if you succeed.
     footnotes:
       - 'Your card is not charged on sign-up, but we need it to hold you accountable. See the <a href="#faqs">FAQs</a>.'
+      - 'You are only required to submit the check-in, not succeed with your goals. See the <a href="#faqs">FAQs</a>.'
   - block: three-column-1
     slug: principles
     title:
@@ -108,7 +109,7 @@ page_sections:
         You will be charged $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
-    closed: false
+    closed: true
     cohort_id: a509058d-aba1-4848-b96c-298cdaaa0da8
     success_url: '/intentional-technology-success'
     program_dates: 'Jan 28 to Feb 27'
