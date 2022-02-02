@@ -55,20 +55,20 @@ page_sections:
       image:
         image: '/uploads/community.png'
         alt_text: Community
-      headline: Meet your Cohort
+      headline: Register
       content:
-        The program is free to join. After registration, you are placed into a <em>“Moai”</em> - your intimate cohort of 4 peers.
+        Registration is free, but requires a credit card for accountability (explained next).
         <br><br>
-        You are each other’s source of motivation, accountability and shared learning. There's nothing quite like growing together!
+        After joining, you are placed into a <em>“Moai”</em> - your intimate cohort of 4 peers.
     col_2:
       image:
         image: '/uploads/challenge.png'
         alt_text: Challenge
       headline: Follow your Challenge
       content: 
-        Every week, you follow a self-set challenge. You then share your insights with your Moai via a 15 minute guided check-in, done on <em>your</em> schedule.
+        Every week, you follow a self-set challenge and submit a 15 minute guided check-in - on <em>your</em> schedule.
         <br><br>
-        Your card is charged<sup>1</sup> to charity (not us) if you don't submit<sup>2</sup> all your check-ins. Skin in the game!
+        <strong>Your card is charged<sup>1</sup> to charity (not us) for every missed<sup>2</sup> check-in. Skin in the game!</strong>
     col_3:
       image:
         image: '/uploads/healthy-lifestyle.png'
@@ -77,9 +77,9 @@ page_sections:
       content:
         Congratulations! In 30 days, you improved your life and gained the tools to sustain that progress.
         <br><br>
-        Contribute what you think it was worth at the end, and only if you see results. We only make money if you succeed.
+        Pay us what you think it was worth and only if you see results. We only make money if you succeed.
     footnotes:
-      - 'Your card is not charged on sign-up, but we need it to enforce the stake. See the <a href="#faqs">FAQs</a>.'
+      - 'Your card is not charged on sign-up, but we need it to hold you accountable. See the <a href="#faqs">FAQs</a>.'
       - 'You are only required to submit the check-in, not succeed with your goals. See the <a href="#faqs">FAQs</a>.'
   - block: three-column-1
     slug: principles
@@ -87,10 +87,10 @@ page_sections:
       headline: Our Principles
     col_1:
       headline: Tighten the Feedback Loop
-      content: Writing is thinking. The check-ins prompt reflection on what worked and what didn’t. By articulating your learnings, you discover actionable advice for next week. This compounds over time.
+      content: The check-ins prompt reflection on what worked and what didn’t. Writing is thinking - by articulating your learnings, you discover actionable advice for next week. This compounds over time.
     col_2:
       headline: Bias towards Action
-      content: The emphasis is on execution - applying the Habit Reframe Method in your daily life to achieve your goals. Your lack of knowledge of the newest self-help trend is not what's holding you back — your lack of action and consistency is.
+      content: Content is deliberately sparse in the program. The emphasis is on execution, not education. Quality content isn't the bottleneck - the lack of action is.
     col_3:
       headline: Aligned Incentives
       content: We only make money if you succeed. There is no conflict of interest, unlike other business models (e.g ads, endorsements, affiliate links) that are rewarded by consumption, not action.
@@ -111,13 +111,14 @@ page_sections:
     col_3:
       headline: Stake
       content:
-        You will be charged $100 to charity (not us) if you don't submit ALL the check-ins.
+        You will be charged $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
     closed: false
     cohort_id: e7069321-13ce-461e-a51a-a17b75f3e321
     success_url: '/habit-reframe-mindset-success'
     staked: true
+    program_dates: 'Feb 11 to March 13'
   - block: faqs
     slug: faqs
     title:
@@ -132,7 +133,7 @@ page_sections:
       - question: Can I be anonymous?
         answer: Absolutely! There are no video or voice calls. You can also set an anonymous nickname when you join your Moai.
       - question: If I fail, what charity does my stake go to?
-        answer: By default, it goes to GiveDirectly. We are not affiliated with them. It's worth noting that we've never actually had to do this - we hope you're not the first! If you have another preference, please email us at team@themoai.org.
+        answer: By default, it goes to GiveDirectly. We are not affiliated with them. If you have another preference, please email us at team@themoai.org.
       - question: How is this different from a course?
         answer: The program is focused on application — on applying the Habit Reframe Method to your day-to-day life—rather than getting a ton of theory. There will be limited content and just enough structure for participants to grow at their own pace. It is the best of both worlds - the community of a class paired with the independence of self-learning.
       - question: What if I have questions or sticking points along the way?
