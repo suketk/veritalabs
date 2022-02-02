@@ -33,15 +33,15 @@ page_sections:
       headline: Testimonials
       caption: From other cohorts
     testimonials:
-      - quote: "My brain feels less foggy and more relaxed. Learning to be kind to myself in the face of failure has been a HUGE step in allowing myself to grow and develop better habits."
+      - quote: "I feel that I can accomplish anything I set my mind to."
         role: Student
-        person: Mickayla
-      - quote: "The Moai program plants the seed of habit reformation into your mind -- and even if you don't see the results and tall, green stock you're chasing, it's still taking root and subtly encouraging you to keep trying -- and reminding you that it is possible to create change for oneself."
+        person: JD
+      - quote: "I feel better about myself and actually motivated to continue working on focusing on myself for a change."
         role: Student
-        person: Phil Fry
-      - quote: "I feel much better about myself now that I have adopted healthier habits and become more productive. I still have a ways to go, but I am at a much better spot than one month ago."
+        person: NK
+      - quote: "I have been able to let go, take some time for myself, and check in with myself about how I'm feeling and what I need."
         role: Student
-        person: M
+        person: NF
   - block: three-column-1
     class: alt
     numbers: true
