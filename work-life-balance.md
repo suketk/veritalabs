@@ -18,8 +18,8 @@ page_sections:
         Join a <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Next cohort runs from Jan 14 - Feb 13. <br>
-        <strong>Registration closes on Thu, Jan 13.</strong> 
+        Next cohort runs from Feb 18 - March 20. <br>
+        <strong>Registration closes on Thu, Feb 17.</strong> 
         <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
@@ -99,7 +99,7 @@ page_sections:
       headline: Dates
       content:
         Runs for 30 days. <br>
-        January 14 - February 13.
+        February 18 - March 20.
     col_2:
       headline: Time Commitment
       content:
@@ -110,11 +110,11 @@ page_sections:
         You will be charged $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
-    closed: true
-    cohort_id: f248706a-e6c7-4de8-8e5a-83756e18be49
+    closed: false
+    cohort_id: c0f182c0-ffa4-465e-a2c2-d9376485b7ae
     success_url: '/work-life-balance-success'
-    intro_call_date: 'Fri, Jan 14'
-    program_dates: 'Jan 14 to Feb 13'
+    intro_call_date: 'Fri, Feb 18'
+    program_dates: 'Feb 18 to March 20'
     staked: true
   - block: faqs
     slug: faqs
