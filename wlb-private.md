@@ -1,11 +1,11 @@
 ---
 layout: blocks
-title: Work-Life Balance
+title: K&I HR Work-Life Balance
 date: 2021-10-20
 page_sections:
   - block: header-2
     logo: '/uploads/logo.png'
-    title: Work-Life Balance Moai
+    title: K&I HR Work-Life Balance Moai
     cta:
       url: '#signup'
       button_text: Register
@@ -15,11 +15,11 @@ page_sections:
       Orient work around life. Not the other way around.
       <hr style="width:50%; margin:auto;">
       <p>
-        Join this 30 day group accountability program. <br>
+        A private group accountability program - <strong>just for K&I HR</strong>. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
         Cohort runs from Feb 11 - March 13. <br>
-        <strong>Registration closes on Thu, Feb 10.</strong> 
+        <strong>Registration closes on Fri, Feb 11.</strong> 
         <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
