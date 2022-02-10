@@ -12,10 +12,10 @@ page_sections:
   - block: hero-1
     headline: <strong>Reclaim your life from work.</strong>
     content:
-      Orient work around life. Not the other way around.
+      Orient work around life. Not the other way around. <br>
+      <strong>Exclusively for K&I HR</strong> - a group accountability program.
       <hr style="width:50%; margin:auto;">
       <p>
-        A private group accountability program - <strong>just for K&I HR</strong>. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
         Cohort runs from Feb 11 - March 13. <br>
