@@ -114,7 +114,7 @@ page_sections:
         You will be charged $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
-    closed: false
+    closed: true
     cohort_id: e7069321-13ce-461e-a51a-a17b75f3e321
     success_url: '/habit-reframe-mindset-success'
     staked: true
