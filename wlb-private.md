@@ -110,7 +110,7 @@ page_sections:
         You will be charged $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
-    closed: true
+    closed: false
     cohort_id: fb7febfc-121e-46fb-a761-6198961d90ac
     success_url: '/wlb-private-success'
     # intro_call_date: 'Fri, Jan 14'
