@@ -18,8 +18,8 @@ page_sections:
         Join our <em>free</em> 30 day intentionality program. <br>
         Only 15 minutes every week.
         <br><br>
-        Runs from February 11 - March 13. <br>
-        <strong>Registration closes on Friday, February 11.</strong>
+        Runs from February 18 - March 20. <br>
+        <strong>Registration closes on Friday, February 18.</strong>
         <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
@@ -94,8 +94,8 @@ page_sections:
     col_1:
       headline: Dates
       content:
-        Runs from Feb 11 - Mar 13.<br>
-        Five total check-ins - first one due Sun, Feb 13.
+        Runs from Feb 18 - Mar 20.<br>
+        Five total check-ins - first one due Sun, Feb 20.
     col_2:
       headline: Time Commitment
       content:
@@ -107,7 +107,7 @@ page_sections:
   - block: registration-bar-checkin-only
     class: alt
     closed: false
-    cohort_id: 1ef244f5-1ab9-463e-947e-413c3f4b2ba1
+    cohort_id: 2b7244c0-030e-426c-9811-92526d2dde2a
     success_url: '/intentionality-success'
   - block: faqs
     slug: faqs
