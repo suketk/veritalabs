@@ -20,9 +20,10 @@ page_sections:
         Join our <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Cohort 16 runs from Feb 11 - March 13. <br>
-        <strong>Registration closes on Thu, Feb 10.</strong>
-        <!-- <strong>Registration is now closed.</strong> -->
+        <!-- Cohort 16 runs from Feb 11 - March 13. <br> -->
+        <!-- <strong>Registration closes on Thu, Feb 10.</strong> -->
+        Registration is now closed. <br>
+        <strong>Join the <a href="#waitlist">waitlist</a> or this <a href="/intentionality">partner program</a>.</strong>
       </p>
     cta:
       enabled: true

@@ -282,6 +282,10 @@ input.inverted::placeholder {
 	color: #fff;
 }
 
+.block-hero-1 a {
+	color: #fff;
+}
+
 .block-hero-2 {
 	--text: #fff;
 	flex-direction: column;
@@ -394,14 +398,30 @@ input.inverted::placeholder {
 	margin-bottom: 1rem;
 }
 
-.block-testimonials .columns,
+.block-testimonials .columns {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -2rem;
+}
+
+.block-testimonials .column {
+	flex: 0 0 calc(100% - 1rem);
+	margin: 0.5rem;
+	text-align: center;
+}
+
+@media screen and (min-width:750px) {
+	.block-testimonials .column {
+		flex: 0 0 calc(33.33% - 1rem);
+	}
+}
+
 .block-three-column-1 .columns {
 	display: flex;
 	flex-wrap: wrap;
 	margin: -2rem;
 }
 
-.block-testimonials .column,
 .block-three-column-1 .column {
 	flex: 0 0 calc(100% - 4rem);
 	margin: 2rem;
@@ -413,7 +433,6 @@ input.inverted::placeholder {
 }
 
 @media screen and (min-width:750px) {
-	.block-testimonials .column,
 	.block-three-column-1 .column {
 		flex: 0 0 calc(33.33% - 4rem);
 	}
