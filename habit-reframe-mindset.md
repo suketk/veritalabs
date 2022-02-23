@@ -27,10 +27,10 @@ page_sections:
       </p>
     cta:
       enabled: true
-      url: '#signup'
-      button_text: 'Join for Free'
-      # url: '#waitlist'
-      # button_text: 'Join the Waitlist'
+      # url: '#signup'
+      # button_text: 'Join for Free'
+      url: '#waitlist'
+      button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Feedback from past participants
