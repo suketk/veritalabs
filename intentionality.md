@@ -107,7 +107,7 @@ page_sections:
   - block: registration-bar-checkin-only
     class: alt
     closed: false
-    cohort_id: 5f6ec0fc-29f2-4341-af34-3efb4d9085d0
+    cohort_id: a3c45714-7be8-4836-8e48-fb5b425c87df
     success_url: '/intentionality-success'
   - block: faqs
     slug: faqs
