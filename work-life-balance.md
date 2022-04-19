@@ -18,16 +18,16 @@ page_sections:
         Join a <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Next cohort runs from Feb 18 - March 20. <br>
-        <!-- <strong>Registration closes on Thu, Feb 17.</strong> -->
-        <strong>Registration is now closed.</strong>
+        Next cohort runs from April 29 - May 29. <br>
+        <strong>Registration closes on Thu, April 28.</strong>
+        <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
       enabled: true
-      # url: '#signup'
-      # button_text: 'Register'
-      url: '#waitlist'
-      button_text: 'Join the Waitlist'
+      url: '#signup'
+      button_text: 'Register'
+      # url: '#waitlist'
+      # button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Testimonials
@@ -35,13 +35,13 @@ page_sections:
     testimonials:
       - quote: "I feel that I can accomplish anything I set my mind to."
         role: Student
-        person: JD
+        person: Janet, Google
       - quote: "I feel better about myself and actually motivated to continue working on focusing on myself for a change."
         role: Student
-        person: NK
+        person: Nicole K, Google
       - quote: "I have been able to let go, take some time for myself, and check in with myself about how I'm feeling and what I need."
         role: Student
-        person: NF
+        person: Nicole F, Google 
   - block: three-column-1
     class: alt
     numbers: true
@@ -98,8 +98,9 @@ page_sections:
     col_1:
       headline: Dates
       content:
+        April 29 - May 29. <br>
         Runs for 30 days. <br>
-        February 18 - March 20.
+        Pay what you want at the end.
     col_2:
       headline: Time Commitment
       content:
@@ -107,14 +108,14 @@ page_sections:
     col_3:
       headline: Stake
       content:
-        You will be charged $100 to charity (not us) for every missed check-in.
+        You will be charged $100 to charity (not us) for every missed check-in. Skin in the game!
   - block: registration-bar
     class: alt
-    closed: true
-    cohort_id: c0f182c0-ffa4-465e-a2c2-d9376485b7ae
+    closed: false
+    cohort_id: 3de0479d-f9d0-4243-8db3-9401fed28c75
     success_url: '/work-life-balance-success'
-    intro_call_date: 'Fri, Feb 18'
-    program_dates: 'Feb 18 to March 20'
+    intro_call_date: 'Fri, April 29'
+    program_dates: 'April 29 to May 29'
     staked: true
   - block: faqs
     slug: faqs
