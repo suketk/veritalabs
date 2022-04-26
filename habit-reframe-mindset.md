@@ -20,10 +20,10 @@ page_sections:
         Join our <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        <!-- Next cohort runs from March 25 - April 24. <br> -->
-        <!-- <strong>Registration closes on Thu, March 24.</strong> -->
-        Registration is now closed. <br>
-        <strong>Join the <a href="#waitlist">waitlist</a> or this <a href="/intentionality">partner program</a>.</strong>
+        Next cohort runs from May 6 - June 5. <br>
+        <strong>Registration closes on Thu, May 5.</strong>
+        <!-- Registration is now closed. <br> -->
+        <!-- <strong>Join the <a href="#waitlist">waitlist</a> or this <a href="/intentionality">partner program</a>.</strong> -->
       </p>
     cta:
       enabled: true
@@ -104,7 +104,7 @@ page_sections:
       headline: Dates
       content:
         Runs for 30 days. <br>
-        March 25 - April 24.
+        May 6 - June 5.
     col_2:
       headline: Time Commitment
       content:
@@ -115,11 +115,11 @@ page_sections:
         You will be charged $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
-    closed: true
-    cohort_id: 506a09a2-8967-4ae7-861f-6ae4dd4dff9f
+    closed: false
+    cohort_id: 3b07dc19-60ba-466e-b791-0c744902b18d
     success_url: '/habit-reframe-mindset-success'
     staked: true
-    program_dates: 'March 25 to April 24'
+    program_dates: 'May 6 to June 5'
   - block: faqs
     slug: faqs
     title:
