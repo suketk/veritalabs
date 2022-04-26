@@ -451,6 +451,11 @@ input.inverted::placeholder {
 	padding: 1rem;
 	border-radius: 5%;
 	background-color: var(--theme);
+	/*height:  100%;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .testimonial span {
@@ -461,7 +466,7 @@ input.inverted::placeholder {
 }
 
 .block-testimonials .quote {
-	margin: 1rem 0;
+	margin: 2rem 0;
 }
 
 .block-testimonials .person {

@@ -41,7 +41,22 @@ page_sections:
         person: Nicole K, Google
       - quote: "I have been able to let go, take some time for myself, and check in with myself about how I'm feeling and what I need."
         role: Student
-        person: Nicole F, Google 
+        person: Nicole F, Google
+      - quote: "Like many, I've been struggling with motivation throughout the pandemic and was having a really hard time getting it together. To my surprise, I found this program incredibly effective and helpful. It gave me a sense of community outside of my direct coworkers and enabled me to put positive habits into place that I continue to this day. I recommend it to anyone looking to add structure or new habits into their life."
+        role: Student
+        person: Anonymous Googler
+      - quote: "I am much more consistent in making space for \"me time\". I also learned to listen to myself - both my body and my mental state - and be more attuned to how I was feeling and why. Through the insights I gained from the program, I feel more equipped to make changes to adjust and optimistic about my ability to maintain my progress."
+        role: Student
+        person: Vice President, Google
+      - quote: "It successfully shifted my focus from hypothetical grand plans to smaller actions that make an impact in the present. As a result, I am better at disconnecting from work and exercising more frequently. I am also more excited and committed to my self-care compared to a month ago."
+        role: Student
+        person: Director, Google
+      - quote: "It transformed my sleep and phone habits - I feel very healthy now. 8 hours of sleep with no phone time in bed is my new normal and my screen time has gone down by 30 percent."
+        role: Student
+        person: Director, Google
+      - quote: "I am more purposeful in doing things that make me feel good and are important during COVID, e.g taking a walk on a sunny day, having a coffee whenever I can outside of home and connecting with friends who live in other countries."
+        role: Student
+        person: Director, Google
   - block: three-column-1
     class: alt
     numbers: true
