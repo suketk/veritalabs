@@ -18,7 +18,7 @@ page_sections:
         Join a <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Next cohort runs from May 6 - June 5. <br> 
+        New cohort runs from May 6 - June 5. <br> 
         <strong>Registration closes on Thu, May 5.</strong>
         <!-- <strong>Registration is now closed.</strong> -->
       </p>
