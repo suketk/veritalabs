@@ -18,14 +18,14 @@ page_sections:
         Join a <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Next cohort runs from April 29 - May 29. <br>
-        <strong>Registration closes on Thu, April 28.</strong>
+        Next cohort runs from May 6 - June 5. <br> 
+        <strong>Registration closes on Thu, May 5.</strong>
         <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
       enabled: true
       url: '#signup'
-      button_text: 'Register'
+      button_text: 'Join!'
       # url: '#waitlist'
       # button_text: 'Join the Waitlist'
   - block: testimonials
@@ -113,7 +113,7 @@ page_sections:
     col_1:
       headline: Dates
       content:
-        April 29 - May 29. <br>
+        May 6 - June 5. <br>
         Runs for 30 days. <br>
         Pay what you want at the end.
     col_2:
@@ -127,10 +127,10 @@ page_sections:
   - block: registration-bar
     class: alt
     closed: false
-    cohort_id: 3de0479d-f9d0-4243-8db3-9401fed28c75
+    cohort_id: 1533d06a-e5c0-4ed7-a7ad-c0b2659b628f
     success_url: '/work-life-balance-success'
-    intro_call_date: 'Fri, April 29'
-    program_dates: 'April 29 to May 29'
+    intro_call_date: 'Fri, May 6'
+    program_dates: 'May 6 to June 5'
     staked: true
   - block: faqs
     slug: faqs
