@@ -18,9 +18,9 @@ page_sections:
         Join a <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        New cohort runs from May 6 - June 5. <br> 
-        <strong>Registration closes on Thu, May 5.</strong>
-        <!-- <strong>Registration is now closed.</strong> -->
+        New cohort runs from April 29 - May 29. <br> 
+        <!-- <strong>Registration closes on Thu, May 5.</strong> -->
+        <strong>Registration is now closed.</strong>
       </p>
     cta:
       enabled: true
@@ -113,7 +113,7 @@ page_sections:
     col_1:
       headline: Dates
       content:
-        May 6 - June 5. <br>
+        April 29 - May 29. <br>
         Runs for 30 days. <br>
         Pay what you want at the end.
     col_2:
@@ -126,8 +126,8 @@ page_sections:
         You will be charged $100 to charity (not us) for every missed check-in. Skin in the game!
   - block: registration-bar
     class: alt
-    closed: false
-    cohort_id: 1533d06a-e5c0-4ed7-a7ad-c0b2659b628f
+    closed: true
+    cohort_id: 1533d06a-e5c0-4ed7-a7ad-c0b2659b628f # Reuse this cohort ID.
     success_url: '/work-life-balance-success'
     intro_call_date: 'Fri, May 6'
     program_dates: 'May 6 to June 5'
