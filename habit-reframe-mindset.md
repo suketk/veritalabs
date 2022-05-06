@@ -20,8 +20,8 @@ page_sections:
         Join our <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Next cohort runs from May 6 - June 5. <br>
-        <strong>Registration closes on Thu, May 5.</strong>
+        Next cohort runs from May 20 - June 19. <br>
+        <strong>Registration closes on Thu, May 19.</strong>
         <!-- Registration is now closed. <br> -->
         <!-- <strong>Join the <a href="#waitlist">waitlist</a> or this <a href="/intentionality">partner program</a>.</strong> -->
       </p>
@@ -58,9 +58,12 @@ page_sections:
         alt_text: Community
       headline: Register
       content:
-        Registration is free, but requires a credit card for accountability (explained next).
+        Registration is free, but requires an accountability commitment (explained next).
         <br><br>
-        After joining, you are placed into a <em>“Moai”</em> - your intimate cohort of 4 peers.
+        After joining, you are placed into a <em>“Moai”</em> - your intimate peer cohort.
+        # Registration is free, but requires a credit card for accountability (explained next).
+        # <br><br>
+        # After joining, you are placed into a <em>“Moai”</em> - your intimate peer cohort.
     col_2:
       image:
         image: '/uploads/challenge.png'
@@ -69,7 +72,10 @@ page_sections:
       content: 
         Every week, you follow a self-set challenge and submit a 15 minute guided check-in - on <em>your</em> schedule.
         <br><br>
-        <strong>Your card is charged<sup>1</sup> to charity (not us) for every missed<sup>2</sup> check-in. Skin in the game!</strong>
+        <strong>You are billed to charity (not us) for every missed<sup>1</sup> check-in. Skin in the game!</strong>
+        # Every week, you follow a self-set challenge and submit a 15 minute guided check-in - on <em>your</em> schedule.
+        # <br><br>
+        # <strong>Your card is charged<sup>1</sup> to charity (not us) for every missed<sup>2</sup> check-in. Skin in the game!</strong>
     col_3:
       image:
         image: '/uploads/healthy-lifestyle.png'
@@ -80,8 +86,9 @@ page_sections:
         <br><br>
         Pay us what you think it was worth and only if you see results. We only make money if you succeed.
     footnotes:
-      - 'Your card is not charged on sign-up, but we need it to hold you accountable. See the <a href="#faqs">FAQs</a>.'
       - 'You are only required to submit the check-in, not succeed with your goals. See the <a href="#faqs">FAQs</a>.'
+      # - 'Your card is not charged on sign-up, but we need it to hold you accountable. See the <a href="#faqs">FAQs</a>.'
+      # - 'You are only required to submit the check-in, not succeed with your goals. See the <a href="#faqs">FAQs</a>.'
   - block: three-column-1
     slug: principles
     title:
@@ -104,7 +111,7 @@ page_sections:
       headline: Dates
       content:
         Runs for 30 days. <br>
-        May 6 - June 5.
+        May 20 - June 19.
     col_2:
       headline: Time Commitment
       content:
@@ -112,21 +119,21 @@ page_sections:
     col_3:
       headline: Stake
       content:
-        You will be charged $100 to charity (not us) for every missed check-in.
+        You will be billed $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
     closed: false
-    cohort_id: 3b07dc19-60ba-466e-b791-0c744902b18d
+    cohort_id: dfb92871-c681-45bd-a832-ecb28458dd75
     success_url: '/habit-reframe-mindset-success'
-    staked: true
-    program_dates: 'May 6 to June 5'
+    staked: false
+    program_dates: 'May 20 to June 19'
   - block: faqs
     slug: faqs
     title:
       headline: FAQs
     faqs:
-      - question: Why is a credit card required to register?
-        answer: The program is free to join. Your credit card will <strong>not</strong> be charged upon registration. However, we need your card to donate to charity on your behalf <strong>only</strong> if you don't complete the program. This increases your chance of success by 600% and ensures that everyone in your group is serious.
+      # - question: Why is a credit card required to register?
+      #   answer: The program is free to join. Your credit card will <strong>not</strong> be charged upon registration. However, we need your card to donate to charity on your behalf <strong>only</strong> if you don't complete the program. This increases your chance of success by 600% and ensures that everyone in your group is serious.
       - question: Will I be charged if I check in consistently, but fail to reach my goals? 
         answer: Nope. As long as you complete all the check-ins on time, you won’t be charged. We believe in self-compassion, understanding and self-love over anything else, including hitting external goals. Sustainable growth and success not only starts with those things, but it requires them.
       - question: What is the time commitment?

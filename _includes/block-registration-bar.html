@@ -32,28 +32,35 @@
 
               {% if section.staked %}
 
-
               <label for="ack">
                 <br>Type <em>"<strong>I understand</strong>"</em> below to acknowledge that:<br><br>
                 <ul>
-                <li>Your card is needed to register, but isn't charged on sign-up.</li>
+                <li>Your card is NOT charged on sign-up.</li>
                 <li>You are charged $100 to charity (not us) for every unsubmitted check-in.</li>
                 <li>Check-ins are due every Sunday from {{ section.program_dates }}. They take 15 minutes.</li>
                 </ul>
               </label>
               <input type="text" name="ack" id="ack" placeholder="I understand" pattern=".?I understand.?" required>
 
-<!--               <div class="checkbox">
-                <input type="checkbox" name="ack" id="ack" required>
-                <label for="ack">
-                  <strong>I understand that my card is not charged on sign-up - it's only required to enforce the stake.</strong> <em>Details in <a href="#faqs">FAQs</a></em>
-                </label>
-              </div> -->
+              {% else %}
+              
+              {% if page.title == 'Habit Reframe Mindset' %}
+
+              <label for="ack">
+                <br>Type <em>"<strong>I understand</strong>"</em> below to acknowledge that:<br><br>
+                <ul>
+                <li>You are billed $100 to charity (not us) for every unsubmitted check-in.</li>
+                <li>Check-ins are due every Sunday from {{ section.program_dates }}. They take 15 minutes.</li>
+                </ul>
+              </label>
+              <input type="text" name="ack" id="ack" placeholder="I understand" pattern=".?I understand.?" required>
 
               {% else %}
 
               <label for="stake">What is your penalty if you don't complete the program?</label>
               <input type="text" name="stake" id="stake" placeholder="Donate $100 to charity" required>
+
+              {% endif %}
               
               {% endif %}
 
