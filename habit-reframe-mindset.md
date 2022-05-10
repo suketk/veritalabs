@@ -58,7 +58,7 @@ page_sections:
         alt_text: Community
       headline: Register
       content:
-        Registration is free, but requires an accountability commitment (explained next).
+        Registration is free - no credit card required. Accept the accountability commitment and you're in (explained next).
         <br><br>
         After joining, you are placed into a <em>“Moai”</em> - your intimate peer cohort.
         # Registration is free, but requires a credit card for accountability (explained next).
@@ -72,7 +72,8 @@ page_sections:
       content: 
         Every week, you follow a self-set challenge and submit a 15 minute guided check-in - on <em>your</em> schedule.
         <br><br>
-        <strong>You are billed to charity (not us) for every missed<sup>1</sup> check-in. Skin in the game!</strong>
+        <strong>For each missed<sup>1</sup> check-in, you receive a $100 invoice. This goes to charity, not us. Skin in the game!</strong>
+        # <strong>You are billed to charity (not us) for every missed<sup>1</sup> check-in. Skin in the game!</strong>
         # Every week, you follow a self-set challenge and submit a 15 minute guided check-in - on <em>your</em> schedule.
         # <br><br>
         # <strong>Your card is charged<sup>1</sup> to charity (not us) for every missed<sup>2</sup> check-in. Skin in the game!</strong>
