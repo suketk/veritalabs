@@ -134,7 +134,7 @@ page_sections:
   - block: registration-bar
     class: alt
     closed: false
-    cohort_id: 
+    cohort_id: 78145390-fc1c-41d7-8e92-6cbb4a0ca5c9
     success_url: '/intentional-technology-success'
     program_dates: 'May 13 to June 12'
     # intro_call_date: 'Mon, Nov 22'
