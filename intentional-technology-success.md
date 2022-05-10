@@ -8,7 +8,7 @@ page_sections:
     content:
         <strong>Read the confirmation email for important instructions.</strong> <br><br>
         Things to remember... <br>
-        1. Join the private group (invite in email) by Friday, January 28. <br>
-        2. Submit your first check-in by <strong>Sunday, January 30</strong>.<br>
+        1. Join the private group (invite in email) by Friday, May 13. <br>
+        2. Submit your first check-in by <strong>Sunday, May 15</strong>.<br>
         3. Email us at team@themoai.org if you have any questions.<br>
 ---

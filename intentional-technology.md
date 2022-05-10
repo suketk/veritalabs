@@ -18,29 +18,53 @@ page_sections:
         Join a <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Next cohort runs from Jan 28 - Feb 27. <br>
-        <!-- <strong>Registration closes on Fri, Jan 28.</strong> -->
-        <strong>Registration is now closed.</strong>
+        Next cohort runs from May 13 - June 12. <br>
+        <strong>Registration closes on Fri, May 13.</strong>
+        <!-- <strong>Registration is now closed.</strong> -->
       </p>
     cta:
       enabled: true
-      # url: '#signup'
-      # button_text: 'Join for Free'
-      url: '#waitlist'
-      button_text: 'Join the Waitlist'
+      url: '#signup'
+      button_text: 'Join for Free'
+      # url: '#waitlist'
+      # button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Testimonials
     testimonials:
+      - quote: "I feel that I can accomplish anything I set my mind to."
+        role: Student
+        person: Janet
+      - quote: "I feel better about myself and actually motivated to continue working on focusing on myself for a change."
+        role: Student
+        person: Nicole K
+      - quote: "I have been able to let go, take some time for myself, and check in with myself about how I'm feeling and what I need."
+        role: Student
+        person: Nicole F
+      - quote: "Like many, I've been struggling with motivation throughout the pandemic and was having a really hard time getting it together. To my surprise, I found this program incredibly effective and helpful. It gave me a sense of community and enabled me to put positive habits into place that I continue to this day. I recommend it to anyone looking to add structure or new habits into their life."
+        role: Student
+        person: Anonymous
+      - quote: "I am much more consistent in making space for \"me time\". I also learned to listen to myself - both my body and my mental state - and be more attuned to how I was feeling and why. Through the insights I gained from the program, I feel more equipped to make changes to adjust and optimistic about my ability to maintain my progress."
+        role: Student
+        person: Vice President, Google
+      - quote: "It successfully shifted my focus from hypothetical grand plans to smaller actions that make an impact in the present. As a result, I am better at disconnecting from work and exercising more frequently. I am also more excited and committed to my self-care compared to a month ago."
+        role: Student
+        person: Director, Google
+      - quote: "It transformed my sleep and phone habits - I feel very healthy now. 8 hours of sleep with no phone time in bed is my new normal and my screen time has gone down by 30 percent."
+        role: Student
+        person: Director, Google
+      - quote: "I am more purposeful in doing things that make me feel good and are important during COVID, e.g taking a walk on a sunny day, having a coffee whenever I can outside of home and connecting with friends who live in other countries."
+        role: Student
+        person: Director, Google
       - quote: "My brain feels less foggy and more relaxed. Learning to be kind to myself in the face of failure has been a HUGE step in allowing myself to grow and develop better habits."
         role: Student
         person: Mickayla
-      - quote: "The Moai program plants the seed of habit reformation into your mind -- and even if you don't see the results and tall, green stock you're chasing, it's still taking root and subtly encouraging you to keep trying -- and reminding you that it is possible to create change for oneself."
-        role: Student
-        person: Phil Fry
-      - quote: "I feel much better about myself now that I have adopted healthier habits and become more productive. I still have a ways to go, but I am at a much better spot than one month ago."
-        role: Student
-        person: M
+      # - quote: "The Moai program plants the seed of habit reformation into your mind -- and even if you don't see the results and tall, green stock you're chasing, it's still taking root and subtly encouraging you to keep trying -- and reminding you that it is possible to create change for oneself."
+      #   role: Student
+      #   person: Phil Fry
+      # - quote: "I feel much better about myself now that I have adopted healthier habits and become more productive. I still have a ways to go, but I am at a much better spot than one month ago."
+      #   role: Student
+      #   person: M
   - block: three-column-1
     class: alt
     numbers: true
@@ -54,7 +78,7 @@ page_sections:
       content:  
         Registration is free, but requires a credit card for accountability (explained next). 
         <br><br>  
-        After joining, you are placed into a <em>“Moai”</em> - your intimate cohort of 4 peers.
+        After joining, you are placed into a <em>“Moai”</em> - your intimate peer cohort.
     col_2:
       image:
         image: '/uploads/challenge.png'
@@ -98,7 +122,7 @@ page_sections:
       headline: Dates
       content:
         Runs for 30 days. <br>
-        January 28 - February 27.
+        May 13 - June 12.
     col_2:
       headline: Time Commitment
       content:
@@ -109,10 +133,10 @@ page_sections:
         You will be charged $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
-    closed: true
-    cohort_id: a509058d-aba1-4848-b96c-298cdaaa0da8
+    closed: false
+    cohort_id: 
     success_url: '/intentional-technology-success'
-    program_dates: 'Jan 28 to Feb 27'
+    program_dates: 'May 13 to June 12'
     # intro_call_date: 'Mon, Nov 22'
     staked: true
   - block: faqs
