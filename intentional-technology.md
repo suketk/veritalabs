@@ -19,15 +19,15 @@ page_sections:
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
         Next cohort runs from May 13 - June 12. <br>
-        <strong>Registration closes on Fri, May 13.</strong>
-        <!-- <strong>Registration is now closed.</strong> -->
+        <!-- <strong>Registration closes on Fri, May 13.</strong> -->
+        <strong>Registration is now closed.</strong>
       </p>
     cta:
       enabled: true
-      url: '#signup'
-      button_text: 'Join for Free'
-      # url: '#waitlist'
-      # button_text: 'Join the Waitlist'
+      # url: '#signup'
+      # button_text: 'Join for Free'
+      url: '#waitlist'
+      button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Testimonials
@@ -133,7 +133,7 @@ page_sections:
         You will be charged $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
-    closed: false
+    closed: true
     cohort_id: 78145390-fc1c-41d7-8e92-6cbb4a0ca5c9
     success_url: '/intentional-technology-success'
     program_dates: 'May 13 to June 12'
