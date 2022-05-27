@@ -6,7 +6,10 @@ page_sections:
   - block: hero-1
     headline: <strong>Registration complete!</strong>
     content:
-        <strong>Read the confirmation email for important instructions.</strong> <br><br>
+        <br>
+        <strong>Read the confirmation email for important instructions.</strong> <br>
+        Don't see it within 3 minutes? Check your spam.
+        <br><br>
         Things to remember... <br>
         1. Join the private group (invite in email) by Friday, May 13. <br>
         2. Submit your first check-in by <strong>Sunday, May 15</strong>.<br>
