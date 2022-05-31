@@ -70,7 +70,7 @@ page_sections:
       content:
         Registration is free, but requires a credit card for accountability (explained next).
         <br><br>
-        After joining, you are placed into a <em>“Moai”</em> - your intimate cohort of 4 peers.
+        After joining, you are placed into a <em>“Moai”</em> - your intimate peer cohort.
     col_2:
       image:
         image: '/uploads/challenge.png'
