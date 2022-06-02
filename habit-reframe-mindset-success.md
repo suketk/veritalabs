@@ -12,7 +12,7 @@ page_sections:
         Don't see it within 3 minutes? Check your spam.
         <br><br>
         Things to remember... <br>
-        1. Join the private group (invite in email) by Friday, June 3. <br>
-        2. Submit your first check-in by <strong>Sunday, June 5</strong>.<br>
+        1. Join the private group (invite in email) by Friday, June 17. <br>
+        2. Submit your first check-in by <strong>Sunday, June 19</strong>.<br>
         3. Email us at team@themoai.org if you have any questions.<br>
 ---

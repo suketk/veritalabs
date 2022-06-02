@@ -20,8 +20,8 @@ page_sections:
         Join our <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Next cohort runs from June 3 - July 3. <br>
-        <strong>Registration closes on Thu, June 2.</strong>
+        Next cohort runs from June 17 - July 17. <br>
+        <strong>Registration closes on Thu, June 16.</strong>
         <!-- Registration is now closed. <br> -->
         <!-- <strong>Join the <a href="#waitlist">waitlist</a> or this <a href="/intentionality">partner program</a>.</strong> -->
       </p>
@@ -112,7 +112,7 @@ page_sections:
       headline: Dates
       content:
         Runs for 30 days. <br>
-        June 3 - July 3.
+        June 17 - July 17.
     col_2:
       headline: Time Commitment
       content:
@@ -124,10 +124,10 @@ page_sections:
   - block: registration-bar
     class: alt
     closed: false
-    cohort_id: 7d9f90c0-6b15-48e3-95ed-805dbf2632dc
+    cohort_id: 980293b5-1f83-4e3a-86b0-0899b7b0f27e
     success_url: '/habit-reframe-mindset-success'
     staked: false
-    program_dates: 'June 3 to July 3'
+    program_dates: 'June 17 to July 17'
   - block: faqs
     slug: faqs
     title:
