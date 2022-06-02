@@ -2,18 +2,18 @@
   <div class="block block-update-card {{section.class}}">
     <div class="container">
       <div class="columns">
-          <div class="cta">
+        <div class="cta">
 
-              <form action="{{ site.backend }}/update" method="POST" id="update">
-              <input type="name" placeholder="Name" name="name" required>
-              <input type="email" placeholder="Email address" name="email" required>
-              
-              <input type="hidden" name="success_url"= value="{{ site.url }}{{ section.success_url }}">
-              <input type="hidden" name="cancel_url">
-              <button type="submit" class="button primary"><strong>Update Card</strong></button>
-              </form>
-                      
-          </div>
+          <form action="{{ site.backend }}/update" method="POST" id="update">
+          <input type="name" placeholder="Name" name="name" required>
+          <input type="email" placeholder="Email address" name="email" required>
+
+          <input type="hidden" name="success_url"= value="{{ site.url }}{{ section.success_url }}">
+          <input type="hidden" name="cancel_url">
+          <button type="submit" class="button primary"><strong>Update Card</strong></button>
+          </form>
+
+        </div>
       </div>
     </div>
   </div>

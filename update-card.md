@@ -9,5 +9,4 @@ page_sections:
   - block: update-card
     class: alt
     success_url: '/update-card-success'
-
 ---
