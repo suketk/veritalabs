@@ -18,16 +18,16 @@ page_sections:
         Join our <em>free</em> 30 day intentionality program. <br>
         Only 15 minutes every week.
         <br><br>
-        Runs from May 6 - June 5. <br>
-        <strong>Registration closes on Friday, May 6.</strong>
-        <!-- <strong>Registration is now closed.</strong> -->
+        <!-- Runs from May 6 - June 5. <br> -->
+        <!-- <strong>Registration closes on Friday, May 6.</strong> -->
+        <strong>Registration is now closed.</strong>
       </p>
     cta:
       enabled: true
-      url: '#signup'
-      button_text: 'Join for Free'
-      # url: '#waitlist'
-      # button_text: 'Join the Waitlist'
+      # url: '#signup'
+      # button_text: 'Join for Free'
+      url: '#waitlist'
+      button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Testimonials
@@ -106,7 +106,7 @@ page_sections:
         Enforce your penalty for every missed check-in. Or have us do it for you.
   - block: registration-bar-checkin-only
     class: alt
-    closed: false
+    closed: true
     cohort_id: a3c45714-7be8-4836-8e48-fb5b425c87df
     success_url: '/intentionality-success'
   - block: faqs
