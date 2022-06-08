@@ -8,8 +8,9 @@ page_sections:
     headline: <strong>Registration complete!</strong>
     content:
         <br>
-        <strong>Read the confirmation email for important instructions.</strong> <br>
-        Don't see it within 3 minutes? Check your spam.
+        Read the confirmation email for important instructions.
+        <br><br>
+        <strong>Don't see it within 3 minutes? CHECK YOUR SPAM.</strong>
         <br><br>
         Things to remember... <br>
         1. Join the private group (invite in email) by Friday, June 17. <br>
