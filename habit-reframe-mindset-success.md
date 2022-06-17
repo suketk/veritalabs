@@ -9,9 +9,10 @@ page_sections:
     content:
         <br>
         Read the confirmation email for important instructions.
-        <br><br>
-        <strong>Don't see it within 3 minutes? CHECK YOUR SPAM.</strong>
-        <br><br>
+        <br><br><br>
+        <strong>Don't see it within 3 minutes? CHECK YOUR SPAM.</strong><br>
+        Subject is <em>"Habit Reframe Mindset GAP - Important Information"</em>
+        <br><br><br>
         Things to remember... <br>
         1. Join the private group (invite in email) by Friday, June 17. <br>
         2. Submit your first check-in by <strong>Sunday, June 19</strong>.<br>
