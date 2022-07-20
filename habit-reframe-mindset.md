@@ -125,7 +125,7 @@ page_sections:
     closed: false
     cohort_id: 235385b9-7729-4671-8667-a9b23539f8a1
     success_url: '/habit-reframe-mindset-success'
-    staked: false
+    staked: true
     # staked: false
     program_dates: 'July 29 to August 28'
   - block: faqs
