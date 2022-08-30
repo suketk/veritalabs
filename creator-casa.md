@@ -122,8 +122,8 @@ page_sections:
         You will be billed $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
-    closed: true
-    cohort_id: 30760749-5846-4d4f-b97e-ddba9bff67cf
+    closed: false
+    cohort_id: 54ef8211-6e87-44af-a595-d0ba5cdf8e0f
     success_url: '/creator-casa-success'
     staked: true
     program_dates: 'Sept 9 to Oct 9'
