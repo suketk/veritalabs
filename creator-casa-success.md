@@ -14,7 +14,7 @@ page_sections:
         Subject is <em>"Creator Casa Moai - Important Information"</em>
         <br><br><br>
         Things to remember... <br>
-        1. Join the private group (invite in email) by Friday, September 9. <br>
-        2. Submit your first check-in by <strong>Sunday, Sept 11</strong>.<br>
+        1. Join the private group (invite in email) by Friday, Sep 16. <br>
+        2. Submit your first check-in by <strong>Sunday, Sep 18</strong>.<br>
         3. Email us at team@themoai.org if you have any questions.<br>
 ---

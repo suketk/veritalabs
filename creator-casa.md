@@ -20,8 +20,8 @@ page_sections:
         Join our <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Next cohort runs from September 9 - October 9. <br>
-        <strong>Registration closes on Thu, September 8.</strong>
+        Next cohort runs from September 16 - October 16. <br>
+        <strong>Registration closes on Thu, September 15.</strong>
         <!-- Registration is now closed. <br> -->
         <!-- <strong>Join the <a href="#waitlist">waitlist</a> or this <a href="/intentionality">partner program</a>.</strong> -->
       </p>
@@ -111,7 +111,7 @@ page_sections:
       headline: Dates
       content:
         Runs for 30 days. <br>
-        Sept 9 - Oct 9.
+        Sep 16 - Oct 16.
     col_2:
       headline: Time Commitment
       content:
@@ -126,7 +126,7 @@ page_sections:
     cohort_id: 54ef8211-6e87-44af-a595-d0ba5cdf8e0f
     success_url: '/creator-casa-success'
     staked: true
-    program_dates: 'Sept 9 to Oct 9'
+    program_dates: 'Sep 16 to Oct 16'
   - block: faqs
     slug: faqs
     title:
