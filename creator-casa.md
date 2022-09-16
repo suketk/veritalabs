@@ -20,17 +20,16 @@ page_sections:
         Join our <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Next cohort runs from September 16 - October 16. <br>
-        <strong>Registration closes on Thu, September 15.</strong>
-        <!-- Registration is now closed. <br> -->
-        <!-- <strong>Join the <a href="#waitlist">waitlist</a> or this <a href="/intentionality">partner program</a>.</strong> -->
+        <!-- Next cohort runs from September 16 - October 16. <br> -->
+        <!-- <strong>Registration closes on Thu, September 15.</strong> -->
+        <strong>Registration is now closed.</strong> <br>
       </p>
     cta:
       enabled: true
-      url: '#signup'
-      button_text: 'Join for Free'
-      # url: '#waitlist'
-      # button_text: 'Join the Waitlist'
+      # url: '#signup'
+      # button_text: 'Join for Free'
+      url: '#waitlist'
+      button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Feedback from past participants
@@ -122,7 +121,7 @@ page_sections:
         You will be billed $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
-    closed: false
+    closed: true
     cohort_id: 54ef8211-6e87-44af-a595-d0ba5cdf8e0f
     success_url: '/creator-casa-success'
     staked: true
