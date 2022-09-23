@@ -14,7 +14,7 @@ page_sections:
         Subject is <em>"Habit Reframe Mindset GAP - Important Information"</em>
         <br><br><br>
         Things to remember... <br>
-        1. Join the private group (invite in email) by Friday, September 23. <br>
-        2. Submit your first check-in by <strong>Sunday, September 25</strong>.<br>
+        1. Join the private group (invite in email) by Friday, October 21. <br>
+        2. Submit your first check-in by <strong>Sunday, October 23</strong>.<br>
         3. Email us at team@themoai.org if you have any questions.<br>
 ---
