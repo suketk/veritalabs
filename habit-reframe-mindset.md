@@ -20,8 +20,8 @@ page_sections:
         Join our <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Next cohort runs from October 21 - November 20. <br>
-        <strong>Registration closes on Thu, Oct 20.</strong>
+        Next cohort runs from November 11 - December 11. <br>
+        <strong>Registration closes on Thu, Nov 10.</strong>
         <!-- Registration is now closed. <br> -->
         <!-- <strong>Join the <a href="#waitlist">waitlist</a> or this <a href="/intentionality">partner program</a>.</strong> -->
       </p>
@@ -111,7 +111,7 @@ page_sections:
       headline: Dates
       content:
         Runs for 30 days. <br>
-        Oct 21 - Nov 20.
+        Nov 11 - Dec 11.
     col_2:
       headline: Time Commitment
       content:
@@ -126,7 +126,7 @@ page_sections:
     cohort_id: 8b927f10-59a7-4a48-9490-40e56cf2f762
     success_url: '/habit-reframe-mindset-success'
     staked: true
-    program_dates: 'Oct 21 to Nov 20'
+    program_dates: 'Nov 11 to Dec 11'
   - block: faqs
     slug: faqs
     title:
