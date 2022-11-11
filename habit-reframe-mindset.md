@@ -20,17 +20,17 @@ page_sections:
         Join our <em>free</em> 30 day group accountability program. <br>
         Do it on <em>your</em> schedule - it only takes 15 minutes per week.
         <br><br>
-        Next cohort runs from November 11 - December 11. <br>
-        <strong>Registration closes on Thu, Nov 10.</strong>
-        <!-- Registration is now closed. <br> -->
-        <!-- <strong>Join the <a href="#waitlist">waitlist</a> or this <a href="/intentionality">partner program</a>.</strong> -->
+        <!-- Next cohort runs from November 11 - December 11. <br> -->
+        <!-- <strong>Registration closes on Thu, Nov 10.</strong> -->
+        Registration is now closed. <br>
+        <strong>Join the <a href="#waitlist">waitlist</a> or this <a href="/intentionality">partner program</a>.</strong>
       </p>
     cta:
       enabled: true
-      url: '#signup'
-      button_text: 'Join for Free'
-      # url: '#waitlist'
-      # button_text: 'Join the Waitlist'
+      # url: '#signup'
+      # button_text: 'Join for Free'
+      url: '#waitlist'
+      button_text: 'Join the Waitlist'
   - block: testimonials
     title:
       headline: Feedback from past participants
@@ -122,7 +122,7 @@ page_sections:
         You will be billed $100 to charity (not us) for every missed check-in.
   - block: registration-bar
     class: alt
-    closed: false
+    closed: true
     cohort_id: 8b927f10-59a7-4a48-9490-40e56cf2f762
     success_url: '/habit-reframe-mindset-success'
     staked: true
