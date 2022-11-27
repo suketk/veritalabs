@@ -23,7 +23,7 @@ page_sections:
         <!-- Next cohort runs from November 11 - December 11. <br> -->
         <!-- <strong>Registration closes on Thu, Nov 10.</strong> -->
         Registration is now closed. <br>
-        <strong>Join the <a href="#waitlist">waitlist</a> or this <a href="/intentionality">partner program</a>.</strong>
+        <strong>Join the <a href="#waitlist">waitlist</a> or this <a href="https://www.thehabitgym.com">partner program</a>.</strong>
       </p>
     cta:
       enabled: true
