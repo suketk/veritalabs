@@ -25,3 +25,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "jekyll-sitemap", "~> 1.4"
+
+gem "jekyll-redirect-from", "~> 0.16.0"

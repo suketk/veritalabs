@@ -1,4 +1,6 @@
 ---
+redirect_to:
+  - https://www.thehabitgym.com
 layout: blocks
 title: Intentional Technology (Stakeless)
 date: 2021-10-20

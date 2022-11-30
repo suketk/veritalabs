@@ -18,4 +18,5 @@ plugins:
   - jekyll-feed
   - jekyll-menus
   - jekyll-sitemap
+  - jekyll-redirect-from
 

@@ -1,4 +1,6 @@
 ---
+redirect_to:
+  - https://www.thehabitgym.com
 layout: blocks
 title: Intentionality
 date: 2021-10-20

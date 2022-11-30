@@ -1,4 +1,6 @@
 ---
+redirect_to:
+  - https://gap.habitreframe.com
 layout: blocks
 title: Habit Reframe Mindset
 date: 2021-10-20

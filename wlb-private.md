@@ -1,4 +1,6 @@
 ---
+redirect_to:
+  - https://www.thehabitgym.com/programs/work-life-balance
 layout: blocks
 title: K&I HR Work-Life Balance
 date: 2021-10-20
